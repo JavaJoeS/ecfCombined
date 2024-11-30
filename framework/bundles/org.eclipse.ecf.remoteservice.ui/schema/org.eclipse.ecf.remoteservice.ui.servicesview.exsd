@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Schema file written by PDE -->
+<schema targetNamespace="org.eclipse.ecf.remoteservice.ui" xmlns="http://www.w3.org/2001/XMLSchema">
+<annotation>
+      <appInfo>
+         <meta.schema plugin="org.eclipse.ecf.remoteservice.ui" id="org.eclipse.ecf.remoteservice.ui.servicesview" name="Services View Extension Point"/>
+      </appInfo>
+      <documentation>
+         This extension point allows new Services views to be created by other plugins and then used by the Remote Services Perspective to display the OSGi services on the local OSGi service registry.
+      </documentation>
+   </annotation>
+
+   <element name="extension">
+      <annotation>
+         <appInfo>
+            <meta.element />
+         </appInfo>
+      </annotation>
+      <complexType>
+         <sequence>
+            <element ref="servicesview" minOccurs="1" maxOccurs="unbounded"/>
+         </sequence>
+         <attribute name="point" type="string" use="required">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="id" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="name" type="string">
+            <annotation>
+               <documentation>
+                  
+               </documentation>
+               <appInfo>
+                  <meta.attribute translatable="true"/>
+               </appInfo>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <element name="servicesview">
+      <annotation>
+         <documentation>
+            Defines a services view.
+         </documentation>
+      </annotation>
+      <complexType>
+         <attribute name="viewid" type="string" use="required">
+            <annotation>
+               <documentation>
+                  A required viewid for the extension services view.  The given viewid must correspond to a view that implements IViewPart, and should also implement IServicesView.   This viewid must also have been registered as an Eclipse view extension.
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="local" type="boolean">
+            <annotation>
+               <documentation>
+                  Boolean indication of whether the given view is for displaying the services from the local OSGi services registry (true) or not (false).
+               </documentation>
+            </annotation>
+         </attribute>
+         <attribute name="priority" type="string">
+            <annotation>
+               <documentation>
+                  Priority (positive integer) of this services view.   This allows multiple services views to determine their relative priority to each other.  The Remote Services perspective picks the services view with the highest priority value to display the contents of the local OSGi services registry.  Only service views with local=&quot;true&quot; will be considered.
+               </documentation>
+            </annotation>
+         </attribute>
+      </complexType>
+   </element>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="since"/>
+      </appInfo>
+      <documentation>
+         3.3.0 of this plugin.
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="examples"/>
+      </appInfo>
+      <documentation>
+         The following example shows the use of the extension point to make a ServicesView (assumed to implement IServicesView interface with viewid=org.eclipse.ecf.remoteservice.ui.serviceview.ServiceView, local=true (for local OSGi service registry), and priority=1000.  The priority=1000 means that any local services view with a priority &gt; 1000 will be used rather than this one as the local OSGi services view in the Remote Service perspective.
+
+&lt;pre&gt;
+  &lt;extension
+         point=&quot;org.eclipse.ecf.remoteservice.ui.servicesview&quot;&gt;
+      &lt;servicesview
+            local=&quot;true&quot;
+            priority=&quot;1000&quot;
+            viewid=&quot;org.eclipse.ecf.remoteservice.ui.serviceview.ServiceView&quot;&gt;
+      &lt;/servicesview&gt;
+   &lt;/extension&gt;
+&lt;/pre&gt;
+      </documentation>
+   </annotation>
+
+   <annotation>
+      <appInfo>
+         <meta.section type="apiinfo"/>
+      </appInfo>
+      <documentation>
+         See the IServicesView interface.   This interface allows other views to set the selected service in the associated view.  If the view given does not implement IServicesView then it will not be used in this manner, but this interface should be implemented by Service View extensions.
+      </documentation>
+   </annotation>
+
+
+   <annotation>
+      <appInfo>
+         <meta.section type="copyright"/>
+      </appInfo>
+      <documentation>
+         Copyright (c) 2015 Composent, Inc. and others.
+
+This program and the accompanying materials are made
+available under the terms of the Eclipse Public License 2.0
+which is available at https://www.eclipse.org/legal/epl-2.0/
+
+SPDX-License-Identifier: EPL-2.0
+
+      </documentation>
+   </annotation>
+
+</schema>

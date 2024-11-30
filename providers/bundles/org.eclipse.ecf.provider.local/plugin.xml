@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ecf.identity.namespace">
+      <namespace
+            class="org.eclipse.ecf.provider.local.identity.LocalNamespace"
+            description="Local Namespace"
+            name="ecf.namespace.local">
+      </namespace>
+   </extension>
+   <extension
+         point="org.eclipse.ecf.containerFactory">
+      <containerFactory
+            class="org.eclipse.ecf.internal.provider.local.container.LocalRemoteServiceContainerInstantiator"
+            description="Local Container"
+            hidden="false"
+            name="ecf.local"
+            server="false">
+      </containerFactory>
+   </extension>
+
+</plugin>

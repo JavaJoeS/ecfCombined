@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.provider.filetransfer.ssl
+Automatic-Module-Name: org.eclipse.ecf.provider.filetransfer.ssl
+Bundle-Version: 1.1.0.v20240812-1535
+Bundle-Vendor: %plugin.provider
+Fragment-Host: org.eclipse.ecf.provider.filetransfer;bundle-version="2.0
+ .0"
+Bundle-Localization: plugin
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
+ viders/bundles/org.eclipse.ecf.provider.filetransfer.ssl;path="provider
+ s/bundles/org.eclipse.ecf.provider.filetransfer.ssl";commitId=e355fb411
+ 958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.jivesoftware.smack' version='3.4.0.v20231021-2050'>
+    <properties size='9'>
+      <property name='artifact.size' value='1032523'/>
+      <property name='download.size' value='1032523'/>
+      <property name='download.checksum.sha-512' value='d04db9dadd8fb1cd672bd70047aece91c0b942f09fb21d64d9d452179acc1b7927d956e3f60d754334683696c56dc1a94695e1a64fc8f7210e0a11be91e51813'/>
+      <property name='download.checksum.sha-1' value='394565f46518244f2e25f21e08cad4f399eb380d'/>
+      <property name='download.checksum.sha-256' value='bdb36f654968bb7c904409dda93a5e35b199874e505077c510484a6aac080121'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.jivesoftware.smack'/>
+      <property name='maven-version' value='3.4.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.jivesoftware.smack.source' version='3.4.0.v20231021-2050'>
+    <properties size='10'>
+      <property name='artifact.size' value='807712'/>
+      <property name='download.size' value='807712'/>
+      <property name='download.checksum.sha-512' value='34b02bc1db70e02068f6dbb088867c377270c2cd0d64522b7321d749cbc1798723ec04997ce9222a2b6ce983800b8fff51717e82c2b798b717fb95ac139aae21'/>
+      <property name='download.checksum.sha-1' value='4b40d027742fa89879bb85916431ecacd361c7ef'/>
+      <property name='download.checksum.sha-256' value='e325f7fb82f766649b486e3845795de8b22dfe1c832af4453078a2b1d6387f95'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.jivesoftware.smack'/>
+      <property name='maven-version' value='3.4.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

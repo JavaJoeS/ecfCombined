@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.ecf.server.generic.feature.source" version="1.2.103.v20231021-2127" label="%featureName" provider-name="%providerName">
+  <description url="http://www.eclipse.org/ecf">
+      This feature provides ECF server support for servers that use the ECF Generic Provider.
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.ecf.server.source" version="2.1.301.v20231021-2050" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ecf.server.generic.source" version="8.2.0.v20231021-2015" download-size="0" install-size="0" unpack="false"/>
+</feature>

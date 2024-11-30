@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.provider.datashare.nio
+Automatic-Module-Name: org.eclipse.ecf.provider.datashare.nio
+Bundle-Version: 0.9.301.v20230528-2254
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Export-Package: org.eclipse.ecf.provider.datashare.nio;version="1.0.0";x
+ -friends:="org.eclipse.ecf.provider.irc"
+Require-Bundle: org.eclipse.equinox.common,org.eclipse.ecf,org.eclipse.e
+ cf.datashare
+Eclipse-BuddyPolicy: global
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
+ viders/bundles/org.eclipse.ecf.provider.datashare.nio;path="providers/b
+ undles/org.eclipse.ecf.provider.datashare.nio";commitId=e355fb411958bd1
+ 2f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.2))"
+

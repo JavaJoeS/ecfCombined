@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.ecf.tests.feature.source" version="3.1.0.v20240402-2354" label="Used to build and execute tests (should never appear in a product) Developer Resources" provider-name="%providerName">
+  <description url="http://www.eclipse.org/ecf">
+      Eclipse Communications Framework Tests
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.ecf.tests.source" version="2.2.102.v20231021-2050" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ecf.tests.remoteservice.source" version="2.1.102.v20230528-2254" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ecf.tests.osgi.services.distribution.source" version="1.1.101.v20230528-2254" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ecf.tests.remoteservice.generic.source" version="2.1.102.v20230528-2254" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ecf.tests.osgi.services.distribution.generic.source" version="1.0.101.v20230528-2254" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ecf.tests.osgi.services.distribution.r-osgi.source" version="1.0.101.v20240402-2321" download-size="0" install-size="0" unpack="false"/>
+</feature>

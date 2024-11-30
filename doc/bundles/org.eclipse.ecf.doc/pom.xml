@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+  xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>org.eclipse.ecf</groupId>
+    <artifactId>ecf-parent</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <relativePath>../../../</relativePath>
+  </parent>
+  <groupId>org.eclipse.ecf</groupId>
+  <artifactId>org.eclipse.ecf.doc</artifactId>
+  <version>1.3.500-SNAPSHOT</version>
+  <packaging>eclipse-plugin</packaging>
+
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.eclipse.tycho.extras</groupId>
+        <artifactId>tycho-document-bundle-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>javadoc</goal>
+            </goals>
+            <configuration>
+              <javadocOptions>
+                <additionalArguments>
+                  <additionalArgument>-Xdoclint:none</additionalArgument>
+                  <additionalArgument>-splitindex</additionalArgument>
+                  <additionalArgument>-use</additionalArgument>
+                  <additionalArgument>-doctitle "Eclipse Communication Framework (ECF) 3.15.3 API"</additionalArgument>
+                  <additionalArgument>-windowtitle "Eclipse Communication Framework (ECF) 3.15.3 API"</additionalArgument>
+                  <additionalArgument>-link https://docs.oracle.com/en/java/javase/11/docs/api/</additionalArgument>
+                  <additionalArgument>-link https://docs.osgi.org/javadoc/osgi.core/7.0.0/</additionalArgument>
+                  <additionalArgument>-tag 'noimplement:a:Restriction:'</additionalArgument>
+                  <additionalArgument>-tag 'noextend:a:Restriction:'</additionalArgument>
+                  <additionalArgument>-tag 'noreference:a:Restriction:'</additionalArgument>
+                  <additionalArgument>-tag 'noinstantiate:a:Restriction:'</additionalArgument>
+                  <additionalArgument>-tag 'nooverride:a:Restriction:'</additionalArgument>
+                  <additionalArgument>-bottom "Copyright &amp;#169; ${project.inceptionYear}&amp;#x2013;2020 &lt;a href=\"${project.organization.url}\"&gt;${project.organization.name}&lt;/a&gt;. All rights reserved."</additionalArgument>
+                </additionalArguments>
+                <excludes>
+                  <exclude>ch.*</exclude>
+                  <exclude>*.internal.*</exclude>
+                  <exclude>*.internal</exclude>
+                  <exclude>org.eclipse.ecf.core.start</exclude>
+                  <exclude>org.eclipse.ecf.core.user</exclude>
+                  <exclude>org.eclipse.ecf.docshare*</exclude>
+                  <exclude>org.eclipse.ecf.datashare*</exclude>
+                  <exclude>org.eclipse.ecf.presence*</exclude>
+                  <exclude>org.eclipse.ecf.sync</exclude>
+                  <exclude>org.eclipse.ecf.example.*</exclude>
+                  <exclude>*.bittorrent</exclude>
+                </excludes>
+              </javadocOptions>
+              <outputDirectory>${project.basedir}/html/reference/api</outputDirectory>
+              <tocFile>${project.basedir}/tocjavadoc.xml</tocFile>
+            </configuration>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+</project>

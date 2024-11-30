@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.tests;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.tests
+Bundle-Version: 2.2.102.v20231021-2050
+Bundle-Activator: org.eclipse.ecf.internal.tests.Activator
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.equinox.common,org.junit,org.eclipse.ecf
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.ecf.internal.tests;x-internal:=true,org.ecli
+ pse.ecf.tests,org.eclipse.ecf.tests.connect,org.eclipse.ecf.tests.util
+Import-Package: org.eclipse.osgi.util;version="1.1.0",org.osgi.framework
+ ;version="1.4.0",org.osgi.util.tracker;version="1.3.2"
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/tes
+ ts/bundles/org.eclipse.ecf.tests;path="tests/bundles/org.eclipse.ecf.te
+ sts";commitId=e355fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

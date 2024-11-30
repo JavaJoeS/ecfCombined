@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension-point id="configuration" name="ECF Generic Server Configuration" schema="schema/configuration.exsd"/>
+   
+      <extension
+         point="org.eclipse.core.runtime.adapters">
+      <factory
+            adaptableType="org.eclipse.ecf.server.generic.GenericServerContainer"
+            class="org.eclipse.ecf.provider.remoteservice.generic.RemoteServiceContainerAdapterFactory">
+         <adapter type="org.eclipse.ecf.remoteservice.IRemoteServiceContainerAdapter"/>
+      </factory>
+   </extension>
+
+      <extension
+         point="org.eclipse.core.runtime.adapters">
+      <factory
+            adaptableType="org.eclipse.ecf.server.generic.SSLGenericServerContainer"
+            class="org.eclipse.ecf.provider.remoteservice.generic.RemoteServiceContainerAdapterFactory">
+         <adapter type="org.eclipse.ecf.remoteservice.IRemoteServiceContainerAdapter"/>
+      </factory>
+   </extension>
+   
+   <extension
+         id="Server"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="*"
+            thread="any"
+            visible="true">
+         <run
+               class="org.eclipse.ecf.server.generic.app.GenericServerApplication"/>
+      </application>
+   </extension>
+
+   <extension
+         id="SecureServer"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="*"
+            thread="any"
+            visible="true">
+         <run
+               class="org.eclipse.ecf.server.generic.app.SSLGenericServerApplication"/>
+      </application>
+   </extension>
+
+   <extension
+         id="Client"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="*"
+            thread="any"
+            visible="true">
+         <run
+               class="org.eclipse.ecf.server.generic.app.GenericClientApplication"/>
+      </application>
+   </extension>
+   <extension
+         id="SecureClient"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            cardinality="*"
+            thread="any"
+            visible="true">
+         <run
+               class="org.eclipse.ecf.server.generic.app.SSLGenericClientApplication"/>
+      </application>
+   </extension>
+   <extension
+         id="GenericClientApplication"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            thread="any"
+            visible="true">
+         <run
+               class="org.eclipse.ecf.server.generic.app.GenericClientApplication">
+         </run>
+      </application>
+   </extension>
+
+   <extension
+         id="SSLGenericClientApplication"
+         point="org.eclipse.core.runtime.applications">
+      <application
+            thread="any"
+            visible="true">
+         <run
+               class="org.eclipse.ecf.server.generic.app.SSLGenericClientApplication">
+         </run>
+      </application>
+   </extension>
+
+</plugin>

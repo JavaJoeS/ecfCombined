@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.ssl
+Automatic-Module-Name: org.eclipse.ecf.ssl
+Bundle-Version: 1.3.100.v20240812-1535
+Fragment-Host: org.eclipse.ecf
+Import-Package: org.eclipse.osgi.service.security
+Bundle-Localization: plugin
+Export-Package: org.eclipse.ecf.internal.ssl;x-internal:=true
+Bundle-Vendor: %plugin.provider
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf.ssl;path="framework/bundles/org.eclipse.
+ ecf.ssl";commitId=e355fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

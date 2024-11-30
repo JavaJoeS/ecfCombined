@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer' version='3.3.0.v20240812-1535'>
+    <properties size='9'>
+      <property name='artifact.size' value='123764'/>
+      <property name='download.size' value='123764'/>
+      <property name='download.checksum.sha-512' value='3ec9d0b7c0f848c6c04c930de322018cc1c3342ba672649d2ca137164c72fb8fba4c3dcd4fd02536c29435a4beafdfddb8f15a3dc6e31da69f7cb57ffdd3f72f'/>
+      <property name='download.checksum.sha-1' value='d2d6955006b0839928e3e1969fb33da50b59583a'/>
+      <property name='download.checksum.sha-256' value='b0993db1384ffa7a2a84e04432ae4b2d96cd6679b6711b19945d317f0af5d601'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.filetransfer'/>
+      <property name='maven-version' value='3.3.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.filetransfer.source' version='3.3.0.v20240812-1535'>
+    <properties size='10'>
+      <property name='artifact.size' value='77378'/>
+      <property name='download.size' value='77378'/>
+      <property name='download.checksum.sha-512' value='ed665e8918510adc85c009819a24bf7aa4492ee102167114c2aebbc0d533f1ef146260bf783570d902a82a38305ab94848b2ce48260773cb284b23b5bc2c7a36'/>
+      <property name='download.checksum.sha-1' value='4d71f709c4f072cb24da9b1968bce4266bd9a4b3'/>
+      <property name='download.checksum.sha-256' value='8ab9b8133779a734adccfa0ee3159801dc49487978e6cfc862d2e0d11f059dc4'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.filetransfer'/>
+      <property name='maven-version' value='3.3.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

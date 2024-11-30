@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.presence.collab.ui;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.presence.collab.ui
+Bundle-Version: 1.3.101.v20231021-2050
+Bundle-Activator: org.eclipse.ecf.internal.presence.collab.ui.Activator
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ecf,
+ org.eclipse.ecf.datashare,org.eclipse.ecf.presence,org.eclipse.ecf.pres
+ ence.ui,org.eclipse.ui.console,org.eclipse.jface.text,org.eclipse.ecf.u
+ i
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.ecf.internal.presence.collab.ui;x-internal:=
+ true,org.eclipse.ecf.internal.presence.collab.ui.view;x-internal:=true,
+ org.eclipse.ecf.presence.collab.ui;version="1.3.0",org.eclipse.ecf.pres
+ ence.collab.ui.console;version="1.3.0",org.eclipse.ecf.presence.collab.
+ ui.screencapture;version="1.3.0",org.eclipse.ecf.presence.collab.ui.url
+ ;version="1.3.0",org.eclipse.ecf.presence.collab.ui.view;version="1.3.0
+ "
+Eclipse-BuddyPolicy: global
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf.presence.collab.ui;path="framework/bundl
+ es/org.eclipse.ecf.presence.collab.ui";commitId=e355fb411958bd12f0c678e
+ 5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

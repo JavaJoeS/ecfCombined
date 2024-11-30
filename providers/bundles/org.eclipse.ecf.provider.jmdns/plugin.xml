@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.1"?>
+<plugin>
+   <extension
+         point="org.eclipse.ecf.containerFactory">
+      <containerFactory
+            class="org.eclipse.ecf.provider.jmdns.container.ContainerInstantiator"
+            description="Discovery Container"
+            name="ecf.discovery.jmdns"
+            server="true">
+       </containerFactory>
+      <containerFactory
+            class="org.eclipse.ecf.provider.jmdns.container.ContainerInstantiator"
+            description="Discovery Container Locator"
+            name="ecf.discovery.jmdns.locator">
+      </containerFactory>
+      <containerFactory
+            class="org.eclipse.ecf.provider.jmdns.container.ContainerInstantiator"
+            description="Discovery Container Advertiser"
+            name="ecf.discovery.jmdns.advertiser">
+      </containerFactory>
+   </extension>
+   <extension
+         point="org.eclipse.ecf.identity.namespace">
+      <namespace
+            class="org.eclipse.ecf.provider.jmdns.identity.JMDNSNamespace"
+            description="JMDNS Namespace"
+            name="ecf.namespace.jmdns"/>
+   </extension>
+
+</plugin>

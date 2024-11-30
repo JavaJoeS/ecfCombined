@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.jivesoftware.smack
+Automatic-Module-Name: org.jivesoftware.smack
+Bundle-Version: 3.4.0.v20231021-2050
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Export-Package: org.jivesoftware.smack,org.jivesoftware.smack.debugger,o
+ rg.jivesoftware.smack.filter,org.jivesoftware.smack.packet,org.jivesoft
+ ware.smack.provider,org.jivesoftware.smack.proxy,org.jivesoftware.smack
+ .sasl,org.jivesoftware.smack.util,org.jivesoftware.smack.util.collectio
+ ns,org.jivesoftware.smackx,org.jivesoftware.smackx.bookmark,org.jivesof
+ tware.smackx.commands,org.jivesoftware.smackx.debugger,org.jivesoftware
+ .smackx.filetransfer,org.jivesoftware.smackx.muc,org.jivesoftware.smack
+ x.packet,org.jivesoftware.smackx.provider,org.jivesoftware.smackx.searc
+ h,org.jivesoftware.smackx.workgroup,org.jivesoftware.smackx.workgroup.a
+ gent,org.jivesoftware.smackx.workgroup.ext.forms,org.jivesoftware.smack
+ x.workgroup.ext.history,org.jivesoftware.smackx.workgroup.ext.macros,or
+ g.jivesoftware.smackx.workgroup.ext.notes,org.jivesoftware.smackx.workg
+ roup.packet,org.jivesoftware.smackx.workgroup.settings,org.jivesoftware
+ .smackx.workgroup.user,org.jivesoftware.smackx.workgroup.util
+Bundle-ClassPath: .,jars/xpp.jar
+Eclipse-ExtensibleAPI: true
+Require-Bundle: org.xbill.dns;bundle-version="2.0.8"
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
+ tocols/bundles/org.jivesoftware.smack;path="protocols/bundles/org.jives
+ oftware.smack";commitId=e355fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

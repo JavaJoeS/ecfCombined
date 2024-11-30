@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='ch.ethz.iks.slp' version='1.4.1.v20240406-1023'>
+    <properties size='9'>
+      <property name='artifact.size' value='112914'/>
+      <property name='download.size' value='112914'/>
+      <property name='download.checksum.sha-512' value='a54901c5f7d7fc4dc98dc4af7f15733c8631e23cc6bcca2fae36e231724b578b07c6ebc51e92e9400bba4e69473c76415ecb1daca3e3e1eb8c34a9a3aa0a846c'/>
+      <property name='download.checksum.sha-1' value='46daac9556e8a176d01d5d76b8ddaea2fd8feb8f'/>
+      <property name='download.checksum.sha-256' value='479416478f710b029764b1c16e59dcd436b381563259b7c0c79a462c4b795c39'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='ch.ethz.iks.slp'/>
+      <property name='maven-version' value='1.4.1-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='ch.ethz.iks.slp.source' version='1.4.1.v20240406-1023'>
+    <properties size='10'>
+      <property name='artifact.size' value='81068'/>
+      <property name='download.size' value='81068'/>
+      <property name='download.checksum.sha-512' value='2f190fa7e42d981084fc65c0315819ff8585af4686078cd43d54b1bb7209bd6722472fb3583598c404262091a1338302c3d9d8c9b58457aeb20a80f5920a610b'/>
+      <property name='download.checksum.sha-1' value='2a4dad0dbb3785e6fce05e2fbc415d34680fe3d2'/>
+      <property name='download.checksum.sha-256' value='94c7ea0c1083510b8086618a9a5ed83a570bfad566022331ba1a815c3dd2c56b'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='ch.ethz.iks.slp'/>
+      <property name='maven-version' value='1.4.1-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

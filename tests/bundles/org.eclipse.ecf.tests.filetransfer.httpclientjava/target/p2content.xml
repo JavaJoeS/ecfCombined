@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.ecf.tests.filetransfer.httpclientjava' version='2.0.0.v20230715-1911' singleton='false' generation='2'>
+    <update id='org.eclipse.ecf.tests.filetransfer.httpclientjava' range='[0.0.0,2.0.0.v20230715-1911)' severity='0'/>
+    <properties size='7'>
+      <property name='org.eclipse.equinox.p2.name' value='%plugin.name'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%plugin.provider'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='fragment'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.tests.filetransfer.httpclientjava'/>
+      <property name='maven-version' value='2.0.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-test-plugin'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.tests.filetransfer.httpclientjava' version='2.0.0.v20230715-1911'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.tests.filetransfer.httpclientjava' version='2.0.0.v20230715-1911'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.tests.filetransfer.httpclientjava' version='2.0.0.v20230715-1911'>
+        <properties size='1'>
+          <property name='type' value='osgi.fragment'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='osgi.fragment' name='org.eclipse.ecf.tests.filetransfer' version='2.0.0.v20230715-1911'/>
+    </provides>
+    <requires size='5'>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.tests.filetransfer' range='2.0.400'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.provider.filetransfer.httpclientjava' range='1.0.0'/>
+      <required namespace='java.package' name='javax.net.ssl' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+        <description>
+          org.eclipse.ecf.tests.filetransfer.httpclientjava
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.tests.filetransfer.httpclientjava.source' range='[2.0.0.v20230715-1911,2.0.0.v20230715-1911]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.tests.filetransfer.httpclientjava' version='2.0.0.v20230715-1911'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.tests.filetransfer.httpclientjava&#xA;Bundle-Version: 2.0.0.v20230715-1911&#xA;Fragment-Host: org.eclipse.ecf.tests.filetransfer;bundle-version=&quot;2.0.400&quot;&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.ecf.tests.filetransfer.httpclientjava.source' version='2.0.0.v20230715-1911' singleton='false'>
+    <update id='org.eclipse.ecf.tests.filetransfer.httpclientjava.source' range='[0.0.0,2.0.0.v20230715-1911)' severity='0'/>
+    <properties size='10'>
+      <property name='df_LT.bundleVendor' value='Eclipse.org - ECF'/>
+      <property name='df_LT.bundleName' value='ECF HttpClientJava Provider Specific Tests Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.tests.filetransfer.httpclientjava'/>
+      <property name='maven-version' value='2.0.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.tests.filetransfer.httpclientjava.source' version='2.0.0.v20230715-1911'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.tests.filetransfer.httpclientjava.source' version='2.0.0.v20230715-1911'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.tests.filetransfer.httpclientjava.source' version='2.0.0.v20230715-1911'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.tests.filetransfer.httpclientjava.source' version='2.0.0.v20230715-1911'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.tests.filetransfer.httpclientjava.source&#xA;Bundle-Version: 2.0.0.v20230715-1911&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

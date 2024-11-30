@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ecf.containerFactory">
+      <containerFactory
+            class="org.eclipse.ecf.provider.zookeeper.core.ZooDiscoveryContainerInstantiator"
+            description="Zookeeper Discovery Container"
+            name="ecf.discovery.zoodiscovery">
+      </containerFactory>
+      <containerFactory
+            class="org.eclipse.ecf.provider.zookeeper.core.ZooDiscoveryContainerInstantiator"
+            description="Zookeeper Discovery Advertiser Container"
+            name="ecf.discovery.zoodiscovery.advertiser">
+      </containerFactory>
+      <containerFactory
+            class="org.eclipse.ecf.provider.zookeeper.core.ZooDiscoveryContainerInstantiator"
+            description="Zookeeper Discovery Locator Container"
+            name="ecf.discovery.zoodiscovery.locator">
+      </containerFactory>
+   </extension>
+   <extension
+         point="org.eclipse.ecf.identity.namespace">
+      <namespace
+            class="org.eclipse.ecf.provider.zookeeper.core.ZooDiscoveryNamespace"
+            description="ZooKeeper Based Discovery Namespace"
+            name="ecf.namespace.zoodiscovery">
+      </namespace>
+   </extension>
+
+</plugin>

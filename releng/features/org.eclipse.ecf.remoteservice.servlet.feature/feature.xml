@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.remoteservice.servlet.feature"
+      label="ECF Remote Services Servlet API Feature"
+      version="1.0.500.qualifier"
+      provider-name="%providerName"
+      license-feature="org.eclipse.license"
+      license-feature-version="0.0.0">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides the Servlet Support for ECF Remote Services.  The Servlet support allows the easy creation of Servlet-based Remote Services that are in full compliance with the Remote Service/Remote Service Admin specification.  Please see here
+
+https://wiki.eclipse.org/Tutorial:_Creating_a_RESTful_Remote_Service_Provider
+
+for a tutorial showing how to create a RESTful Remote Service provider using this Servlet Support.
+
+For the Remote Service and Remote Service Admin specifications see 
+
+http://www.osgi.org/Specifications/HomePage
+
+For tutorials, documentation, and examples with ECF&apos;s Implementation of OSGi RS/RSA see
+
+https://wiki.eclipse.org/ECF#OSGi_Remote_Services
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.ecf.remoteservice.feature" version="2.1" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ecf.remoteservice.servlet"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="jakarta.servlet-api"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

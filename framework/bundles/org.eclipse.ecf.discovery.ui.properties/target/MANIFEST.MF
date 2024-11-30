@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.ecf.discovery.ui.properties;singleton:=
+ true
+Automatic-Module-Name: org.eclipse.ecf.discovery.ui.properties
+Bundle-Version: 3.0.201.v20231021-2050
+Bundle-Vendor: %providerName
+Fragment-Host: org.eclipse.ecf.discovery.ui;bundle-version="[3.0.0,4.0.0
+ )"
+Bundle-Localization: plugin
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf.discovery.ui.properties;path="framework/
+ bundles/org.eclipse.ecf.discovery.ui.properties";commitId=e355fb411958b
+ d12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

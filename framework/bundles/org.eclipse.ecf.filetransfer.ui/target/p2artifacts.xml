@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.filetransfer.ui' version='1.5.201.v20231021-2050'>
+    <properties size='9'>
+      <property name='artifact.size' value='56263'/>
+      <property name='download.size' value='56263'/>
+      <property name='download.checksum.sha-512' value='482c0134ccac47d0fa73c9ff836677378f6f6fbdc4cab77cc0844e8701a6529d8134f20de4dc83f3763837272a357d23b169525f1e9155740e9591012ffa319d'/>
+      <property name='download.checksum.sha-1' value='1b329c17f92c6d83228dd81082514b49c2f870a0'/>
+      <property name='download.checksum.sha-256' value='8918d19b270f995fbe132dabee44bd22f6c97f0db6e2ba9413a439676e91d3e1'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.filetransfer.ui'/>
+      <property name='maven-version' value='1.5.201-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.filetransfer.ui.source' version='1.5.201.v20231021-2050'>
+    <properties size='10'>
+      <property name='artifact.size' value='17942'/>
+      <property name='download.size' value='17942'/>
+      <property name='download.checksum.sha-512' value='8c00eddb44d0fa66d227dbe4694ddf40bcaf8dcddf6464d2502dd2b322f420f26c16f5ec96513b3ba9103b84cedc1eb374141b2347f330b81d4b1020963df164'/>
+      <property name='download.checksum.sha-1' value='0dec57e543612cbe3bd2a7065c4559f510970f77'/>
+      <property name='download.checksum.sha-256' value='dcef4f78c43558b0ccbfa9a1cfc5a8abfcb991fd7d5177321ce8a65f08ea132f'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.filetransfer.ui'/>
+      <property name='maven-version' value='1.5.201-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<introContent>
+	<extensionContent id="org.eclipse.ecf" name="ECF Remote Services"
+		style="css/whatsnew.css" path="whatsnew/@">
+		<group id="content-group" style-id="content-group">
+			<link label="ECF Remote Services"
+				url="http://org.eclipse.ui.intro/openBrowser?url=https://www.eclipse.org/ecf/NewAndNoteworthy.html"
+				id="orgeclipseecfdoc-introLink" style-id="content-link">
+				<text>
+					Find out the significant changes made to ECF in recent versions
+				</text>
+			</link>
+		</group>
+	</extensionContent>
+</introContent>

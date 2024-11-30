@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.core.feature' version='1.6.2.v20240812-1535'>
+    <properties size='10'>
+      <property name='artifact.size' value='14102'/>
+      <property name='download.size' value='14102'/>
+      <property name='download.checksum.sha-512' value='309b7bc56be2aef607c1a59ddd5f9aefdfd2532ea99b507553550c57ba4fa33710a366ed180d48ca65e3c4740cae4d83c1583cecbee095a037c30737ff1de8e3'/>
+      <property name='download.checksum.sha-1' value='4c49701bf5d9f146948adaf411cae55383dd3925'/>
+      <property name='download.checksum.sha-256' value='040e1033da3d2a0bf12ce84affe079b91f82f9a8b78ad8e1498982b6b2404240'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.core.feature'/>
+      <property name='maven-version' value='1.6.2-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.core.feature.source' version='1.6.2.v20240812-1535'>
+    <properties size='11'>
+      <property name='artifact.size' value='15075'/>
+      <property name='download.size' value='15075'/>
+      <property name='download.checksum.sha-512' value='721411740bc57f54794e036155bb99f527b7ee348920f0fd18abe5c9272091608a25c20d1b8237747d78d2afca80195e86b2a994125e54ea7c072f7f7af1135e'/>
+      <property name='download.checksum.sha-1' value='326f73b8d08d413c7c28bf94d0b5bfce1859807f'/>
+      <property name='download.checksum.sha-256' value='f104711e437650df5d5de2d551832c4c1af8cd4c778adf65850bab2db86b3b3d'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.core.feature'/>
+      <property name='maven-version' value='1.6.2-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources-feature'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

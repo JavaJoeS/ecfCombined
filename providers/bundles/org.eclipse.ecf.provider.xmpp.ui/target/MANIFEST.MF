@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.ecf.provider.xmpp.ui;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.provider.xmpp.ui
+Bundle-Version: 2.2.301.v20230528-2254
+Bundle-Activator: org.eclipse.ecf.internal.provider.xmpp.ui.Activator
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ecf,
+ org.eclipse.ecf.ui,org.eclipse.ecf.presence,org.eclipse.ecf.presence.ui
+ ,org.eclipse.ecf.filetransfer,org.eclipse.ecf.provider.xmpp,org.eclipse
+ .ecf.provider,org.eclipse.ecf.sharedobject,org.eclipse.jface.text
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.ecf.internal.provider.xmpp.ui;x-internal:=tr
+ ue
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
+ viders/bundles/org.eclipse.ecf.provider.xmpp.ui;path="providers/bundles
+ /org.eclipse.ecf.provider.xmpp.ui";commitId=e355fb411958bd12f0c678e5a76
+ 476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.discovery.slp.feature"
+      label="ECF Discovery SLP (RFC 2608) Provider"
+      version="1.0.102.qualifier"
+      provider-name="%providerName"
+      license-feature="org.eclipse.license"
+      license-feature-version="0.0.0">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides the ECF Discovery Service Location Protocol
+(RFC 2608) Provider.   This provider can be used by Remote Services Discovery to publish and discover RS EndpointDescriptions.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.ecf.discovery.feature" version="1.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="ch.ethz.iks.slp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.jslp"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

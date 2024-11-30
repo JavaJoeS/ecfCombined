@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.ecf.server.generic' version='8.2.0.v20231021-2015' generation='2'>
+    <update id='org.eclipse.ecf.server.generic' range='[0.0.0,8.2.0.v20231021-2015)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.plugin.provider' value='Eclipse.org - ECF'/>
+      <property name='df_LT.plugin.name' value='ECF Generic Server'/>
+      <property name='org.eclipse.equinox.p2.name' value='%plugin.name'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%plugin.provider'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.server.generic'/>
+      <property name='maven-version' value='8.2.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='8'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.server.generic' version='8.2.0.v20231021-2015'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.server.generic' version='8.2.0.v20231021-2015'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.internal.server.generic' version='6.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.server.generic' version='7.1.0'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.server.generic.app' version='6.0.0'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.server.generic' version='8.2.0.v20231021-2015'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <requires size='16'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.common' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.sharedobject' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.provider' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.discovery' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.provider.remoteservice' range='3.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.remoteservice' range='3.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.registry' range='0.0.0' optional='true' greedy='false'/>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.app' range='0.0.0' optional='true' greedy='false'/>
+      <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.framework' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.service.log' range='0.0.0'/>
+      <required namespace='java.package' name='org.osgi.util.tracker' range='0.0.0'/>
+      <required namespace='java.package' name='org.w3c.dom' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=11))'>
+        <description>
+          org.eclipse.ecf.server.generic
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.server.generic.source' range='[8.2.0.v20231021-2015,8.2.0.v20231021-2015]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.server.generic' version='8.2.0.v20231021-2015'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.server.generic;singleton:=true&#xA;Bundle-Version: 8.2.0.v20231021-2015&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.ecf.server.generic.source' version='8.2.0.v20231021-2015' singleton='false'>
+    <update id='org.eclipse.ecf.server.generic.source' range='[0.0.0,8.2.0.v20231021-2015)' severity='0'/>
+    <properties size='10'>
+      <property name='df_LT.bundleVendor' value='Eclipse.org - ECF'/>
+      <property name='df_LT.bundleName' value='ECF Generic Server Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.server.generic'/>
+      <property name='maven-version' value='8.2.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.server.generic.source' version='8.2.0.v20231021-2015'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.server.generic.source' version='8.2.0.v20231021-2015'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.server.generic.source' version='8.2.0.v20231021-2015'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.server.generic.source' version='8.2.0.v20231021-2015'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.server.generic.source&#xA;Bundle-Version: 8.2.0.v20231021-2015&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

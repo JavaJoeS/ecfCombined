@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ecf.identity.namespace">
+      <namespace
+            class="org.eclipse.ecf.internal.provider.phpbb.identity.PHPBBNamespace"
+            description="phpBB Namespace"
+            name="ecf.phpbb"/>
+   </extension>
+   <extension
+         point="org.eclipse.ecf.containerFactory">
+      <containerFactory
+            class="org.eclipse.ecf.internal.provider.phpbb.container.ContainerInstantiator"
+            description="phpBB HTTP Client"
+            name="ecf.phpbb.http">
+      </containerFactory>
+   </extension>
+
+</plugin>

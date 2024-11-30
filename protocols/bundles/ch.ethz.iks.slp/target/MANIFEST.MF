@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Service Location Protocol (RFC 2608) Implementation
+Bundle-SymbolicName: ch.ethz.iks.slp
+Automatic-Module-Name: ch.ethz.iks.slp
+Bundle-Version: 1.4.1.v20240406-1023
+Export-Package: ch.ethz.iks.slp;version="1.0.0"
+Bundle-Activator: ch.ethz.iks.slp.impl.Activator
+Bundle-Vendor: Eclipse.org - ECF
+Import-Package: org.osgi.framework;version="[1.0.0,2.0.0)",org.osgi.serv
+ ice.log;version="[1.0.0,2.0.0)"
+Bundle-Description: jSLP, the pure Java Service Location Protocol implem
+ entation
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
+ tocols/bundles/ch.ethz.iks.slp;path="protocols/bundles/ch.ethz.iks.slp"
+ ;commitId=e355fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

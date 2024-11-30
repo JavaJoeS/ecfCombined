@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.tests.osgi.services.distribution
+Automatic-Module-Name: org.eclipse.ecf.tests.osgi.services.distribution
+Bundle-Version: 1.1.101.v20230528-2254
+Bundle-Vendor: %plugin.provider
+Import-Package: org.eclipse.ecf.remoteservice.asyncproxy;version="1.0.0"
+ ,org.osgi.framework,org.osgi.util.tracker;version="1.4.2"
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ecf.tests,org.eclipse.ecf.osgi.services.dist
+ ribution;bundle-version="1.0.0",org.eclipse.ecf.remoteservice;bundle-ve
+ rsion="3.0.0",org.eclipse.ecf;bundle-version="3.0.0",org.eclipse.ecf.te
+ sts.remoteservice;bundle-version="2.0.0",org.eclipse.equinox.concurrent
+ ;bundle-version="1.0.0",org.junit;bundle-version="4.8.2",org.eclipse.eq
+ uinox.common;bundle-version="3.6.0"
+Export-Package: org.eclipse.ecf.tests.osgi.services.distribution,org.ecl
+ ipse.ecf.tests.osgi.services.distribution.async
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/tes
+ ts/bundles/org.eclipse.ecf.tests.osgi.services.distribution;path="tests
+ /bundles/org.eclipse.ecf.tests.osgi.services.distribution";commitId=e35
+ 5fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

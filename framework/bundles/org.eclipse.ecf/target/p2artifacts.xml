@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf' version='3.11.0.v20240812-1535'>
+    <properties size='9'>
+      <property name='artifact.size' value='119299'/>
+      <property name='download.size' value='119299'/>
+      <property name='download.checksum.sha-512' value='c1699cafbb4bde5df1b7bd744ae48a6951093515789b1bf876169db6ffbd650d37d62d0773e0a87e2eba1ddfde203c577f3b90f90988b292d1d0d97fa33e9781'/>
+      <property name='download.checksum.sha-1' value='82948231c97d38d145224092040b59ae13f9b1e1'/>
+      <property name='download.checksum.sha-256' value='4b2b5e2518f3fb9ccae5337e9a0db9a69259421dc837a8cdab380b2cfe5f294b'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf'/>
+      <property name='maven-version' value='3.11.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.source' version='3.11.0.v20240812-1535'>
+    <properties size='10'>
+      <property name='artifact.size' value='92194'/>
+      <property name='download.size' value='92194'/>
+      <property name='download.checksum.sha-512' value='1ca6e7f36d8371cb6b6e97a22fefff6914f8dd29bf8aa566f2fa2e703294d400e92f91a6462c84382e9e00af3afa36c49805cafa139b8a6230fafc1fe0f5f5d4'/>
+      <property name='download.checksum.sha-1' value='cf242b2ecb4577d8ab5bfa33e0672a760e6568f5'/>
+      <property name='download.checksum.sha-256' value='ec34a5ceeaf2f176ece39131c823643cc4858946216acc6f9cb51ca1181ec313'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf'/>
+      <property name='maven-version' value='3.11.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

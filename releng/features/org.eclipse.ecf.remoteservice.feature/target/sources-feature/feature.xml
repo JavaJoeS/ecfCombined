@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.ecf.remoteservice.feature.source" version="2.6.1.v20231021-2127" label="ECF Remote Services Developer Resources" provider-name="%providerName">
+  <description url="http://www.eclipse.org/ecf">
+      This feature provides the ECF Remote Services API.  The ECF Remote
+Services API allows distribution of services over a network.  This API is required by ECF&amp;apos;s implementation of OSGi R6 Remote Services/Remote Service Admin.  Remote Services are specified in chapter 100 of the OSGi R6 Enterprise specification while RSA is specified in chapter 122 of the OSGi R6 Enterprise specification.  
+
+For the Remote Service and Remote Service Admin specifications see 
+
+http://www.osgi.org/Specifications/HomePage
+
+For tutorials, documentation, and examples with ECF&amp;apos;s Implementation of OSGi RS/RSA see
+
+https://wiki.eclipse.org/ECF#OSGi_Remote_Services
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.ecf.remoteservice.source" version="8.14.0.v20230528-2254" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ecf.remoteservice.asyncproxy.source" version="2.1.200.v20230528-2254" download-size="0" install-size="0" unpack="false"/>
+</feature>

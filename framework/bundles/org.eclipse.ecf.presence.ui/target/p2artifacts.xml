@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.presence.ui' version='2.4.201.v20221117-1507'>
+    <properties size='9'>
+      <property name='artifact.size' value='239548'/>
+      <property name='download.size' value='239548'/>
+      <property name='download.checksum.sha-512' value='dd6b2df415da52144f463cc606bad94b901923b13becb1caaea1a6a35bdee8fb3c949f38bdf77b4e09d7471da0a43d43278fe50dce2e7e27c680756cd1fc187f'/>
+      <property name='download.checksum.sha-1' value='b17a21bcba0f8a2ed05b2465a8f7ddbc83c9736e'/>
+      <property name='download.checksum.sha-256' value='c78e5c1a2f973f0938f280ef1d6a7ac5ad69f73fd733f25bca9c23cb228c90ac'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.presence.ui'/>
+      <property name='maven-version' value='2.4.201-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.presence.ui.source' version='2.4.201.v20221117-1507'>
+    <properties size='10'>
+      <property name='artifact.size' value='88409'/>
+      <property name='download.size' value='88409'/>
+      <property name='download.checksum.sha-512' value='5281512f81d70587c782edbf0713b5c710f0e3ac91eac717dba9bdc9eae3a7162cf4288c11abd9dd29e811e127595d643ba427bda01d9f9b71e7124703abe546'/>
+      <property name='download.checksum.sha-1' value='cdc730223afee34342a226034c7bdebe38eb1f7e'/>
+      <property name='download.checksum.sha-256' value='85d722bdb9d6a3357b100086255856b338fec127624fe0508fe4604f34631f9f'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.presence.ui'/>
+      <property name='maven-version' value='2.4.201-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

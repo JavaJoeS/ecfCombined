@@ -1,0 +1,68 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <name>jSLP-Test</name>
+  <groupId>ch.ethz.iks.slp</groupId>
+  <artifactId>jslp-test</artifactId>
+  <version>1.1.0.RC1</version>
+  <packaging>bundle</packaging>
+    
+  <build>
+
+    <plugins>
+	  <!-- http://felix.apache.org/site/maven-bundle-plugin-bnd.html -->
+      <plugin>
+  	    <groupId>org.apache.felix</groupId>
+    	<artifactId>maven-bundle-plugin</artifactId>
+        <extensions>true</extensions>
+        <configuration>
+	      	<instructions>
+				<Bundle-Version>${pom.version}</Bundle-Version>
+				<Bundle-Name>jslp-test</Bundle-Name>
+				<Bundle-SymbolicName>ch.ethz.iks.slp.test</Bundle-SymbolicName>
+				<Bundle-Vendor>Jan S. Rellermeyer, IKS, ETH Zurich</Bundle-Vendor>
+<!--           	<Import-Package>org.osgi.framework, ch.ethz.iks.slp, junit.framework, junit.textui, org.apache.tools.ant.taskdefs.optional.junit</Import-Package>-->
+            	<Private-Package>ch.ethz.iks.slp.test</Private-Package>
+				<_include>~META-INF/MANIFEST.MF</_include>
+            	<!-- BND just produces Bundle-ManifestVersion: 2 headers which we don't want -->
+				<_removeheaders>Bundle-ManifestVersion</_removeheaders> 
+    	  	</instructions>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <dependencies>
+		<dependency>
+			<groupId>org.osgi</groupId>
+			<artifactId>org.osgi</artifactId>
+			<version>3.0.0</version>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+        	<groupId>junit</groupId>
+         	<artifactId>junit</artifactId>
+         	<version>3.8.1</version>
+         	<scope>provided</scope>
+      	</dependency>
+		<dependency>
+        	<groupId>ant</groupId>
+         	<artifactId>ant-optional</artifactId>
+         	<version>1.5.3-1</version>
+         	<scope>provided</scope>
+      	</dependency>
+		<dependency>
+        	<groupId>ant</groupId>
+         	<artifactId>ant</artifactId>
+         	<version>1.5.3-1</version>
+         	<scope>provided</scope>
+      	</dependency>
+      	<dependency>
+      		<groupId>ch.ethz.iks.slp</groupId>
+      		<artifactId>jslp-osgi</artifactId>
+      		<version>${pom.version}</version>
+      		<scope>system</scope>
+      		<systemPath>${user.dir}/../target/jslp-osgi-${pom.version}.jar</systemPath>
+      	</dependency>
+   </dependencies>
+
+</project>

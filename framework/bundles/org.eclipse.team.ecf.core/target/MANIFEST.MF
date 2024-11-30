@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.team.ecf.core;singleton:=true
+Automatic-Module-Name: org.eclipse.team.ecf.core
+Bundle-Version: 1.0.201.v20230528-2254
+Bundle-Vendor: %plugin.provider
+Bundle-Activator: org.eclipse.team.internal.ecf.core.TeamSynchronization
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,org.
+ eclipse.team.core,org.eclipse.ecf,org.eclipse.ecf.datashare,org.eclipse
+ .compare.core,org.eclipse.ecf.presence
+Bundle-ActivationPolicy: lazy
+Export-Package: org.eclipse.team.internal.ecf.core;x-friends:="org.eclip
+ se.team.ecf.ui",org.eclipse.team.internal.ecf.core.messages;x-friends:=
+ "org.eclipse.team.ecf.ui",org.eclipse.team.internal.ecf.core.variants;x
+ -friends:="org.eclipse.team.ecf.ui"
+Bundle-Localization: plugin
+Eclipse-BuddyPolicy: global
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.team.ecf.core;path="framework/bundles/org.ec
+ lipse.team.ecf.core";commitId=e355fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.2))"
+

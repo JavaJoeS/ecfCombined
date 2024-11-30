@@ -1,0 +1,45 @@
+/****************************************************************************
+ * Copyright (c) 2004 Composent, Inc. and others.
+ *
+ * This program and the accompanying materials are made
+ * available under the terms of the Eclipse Public License 2.0
+ * which is available at https://www.eclipse.org/legal/epl-2.0/
+ *
+ * Contributors: Composent, Inc. - initial API and implementation
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *****************************************************************************/
+package org.eclipse.ecf.core.sharedobject;
+
+/**
+ * Implementers represent a transaction associated with the creation of a
+ * SharedObject within the scope of a given SharedObjectContainer
+ * 
+ */
+public interface ISharedObjectContainerTransaction {
+	public static final byte ACTIVE = 0;
+
+	public static final byte VOTING = 1;
+
+	public static final byte PREPARED = 2;
+
+	public static final byte COMMITTED = 3;
+
+	public static final byte ABORTED = 4;
+
+	/**
+	 * Method called to wait for a transaction to complete.
+	 * 
+	 * @throws SharedObjectAddAbortException
+	 */
+	public void waitToCommit() throws SharedObjectAddAbortException;
+
+	/**
+	 * Get state of transaction. Returns one of 'ACTIVE', 'VOTING', 'PREPARED',
+	 * 'COMMITTED', or 'ABORTED'.
+	 * 
+	 * @return byte code. Returns one of 'ACTIVE', 'VOTING', 'PREPARED',
+	 *         'COMMITTED', or 'ABORTED'.
+	 */
+	public byte getTransactionState();
+}

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.core"
+      label="ECF SDK for Eclipse"
+      version="3.15.3.v20240902-0326"
+      provider-name="%providerName"
+      plugin="org.eclipse.ecf">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides an all-in-one distribution of ECF APIs, providers, ui, tools, and examples for Eclipse.  Use this feature if you want to install all of ECF into Eclipse.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.ecf.remoteservice.sdk.feature" version="3.8" match="compatible"/>
+    </requires>
+
+   <plugin
+         id="org.eclipse.ecf.doc"
+         download-size="4241"
+         install-size="25760"
+         version="1.3.500.v20240902-0326"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.presence"
+         download-size="62"
+         install-size="92"
+         version="2.1.201.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.irc"
+         download-size="102"
+         install-size="253"
+         version="1.3.401.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.ui"
+         download-size="125"
+         install-size="227"
+         version="2.3.0.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.presence.ui"
+         download-size="233"
+         install-size="493"
+         version="2.4.201.v20221117-1507"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.xmpp.ui"
+         download-size="54"
+         install-size="106"
+         version="2.2.301.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.irc.ui"
+         download-size="32"
+         install-size="58"
+         version="1.4.0.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.discovery.ui"
+         download-size="15"
+         install-size="24"
+         version="3.0.301.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.filetransfer.ui"
+         download-size="54"
+         install-size="92"
+         version="1.5.201.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.presence.bot"
+         download-size="28"
+         install-size="62"
+         version="1.3.301.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.remoteservice.ui"
+         download-size="144"
+         install-size="284"
+         version="3.4.400.v20210403-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.discovery.ui.edit"
+         download-size="24"
+         install-size="46"
+         version="3.0.201.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.discovery.ui.model"
+         download-size="44"
+         install-size="95"
+         version="3.0.202.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.discovery.ui.properties"
+         download-size="3"
+         install-size="4"
+         version="3.0.201.v20231021-2050"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.discovery.ui.properties.tabbed"
+         download-size="13"
+         install-size="25"
+         version="3.0.201.v20231021-2050"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.team.ecf.core"
+         download-size="22"
+         install-size="41"
+         version="1.0.201.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.team.ecf.ui"
+         download-size="38"
+         install-size="76"
+         version="1.0.201.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.discovery.ui.browser"
+         download-size="4"
+         install-size="6"
+         version="1.0.201.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.ui.capabilities"
+         download-size="2"
+         install-size="3"
+         version="1.0.201.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.discovery.ui.userinput"
+         download-size="18"
+         install-size="31"
+         version="1.0.201.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.remoteservices.tooling.pde"
+         download-size="16"
+         install-size="30"
+         version="1.2.0.v20240402-2354"
+         unpack="false"/>
+
+<!--   <plugin
+         id="org.eclipse.ecf.remoteservices.tooling.bndtools"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+-->
+</feature>

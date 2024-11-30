@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.tests' version='2.2.102.v20231021-2050'>
+    <properties size='9'>
+      <property name='artifact.size' value='16516'/>
+      <property name='download.size' value='16516'/>
+      <property name='download.checksum.sha-512' value='e7bdb6acf046f86fb0f2007eb6b209d4b5f4067fda7dcbd551c5268d47e2aeecb723a649414159b5a3a8581b7b70ec21f876c39ee2199c4ee3abdd7ea62d39ea'/>
+      <property name='download.checksum.sha-1' value='01b89d0bc849cb00313139fb27d839ad8e6fa9c6'/>
+      <property name='download.checksum.sha-256' value='30f5eb1d120a930efce6cd41f9428e1759422b18228310bce2f3a70dd81c0669'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.tests'/>
+      <property name='maven-version' value='2.2.102-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-test-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.tests.source' version='2.2.102.v20231021-2050'>
+    <properties size='10'>
+      <property name='artifact.size' value='10019'/>
+      <property name='download.size' value='10019'/>
+      <property name='download.checksum.sha-512' value='48f2c5525acf16c4f76ec3b3e9fe46ab6027ad0dd16c711c94b5ef1810a776c98fcb1efa17bbe32b48a414ef85c7b639127a8d0cf60d0a6bee7bd2c49d736b75'/>
+      <property name='download.checksum.sha-1' value='43c825193d645deefa1092ecac7848b1716d8b00'/>
+      <property name='download.checksum.sha-256' value='91dd7883ec031a157c414af8ae631d471a00cd668ccf9589521d8258aa1d175b'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.tests'/>
+      <property name='maven-version' value='2.2.102-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.ecf.provider.dnssd' version='1.3.100.v20240808-2102' generation='2'>
+    <update id='org.eclipse.ecf.provider.dnssd' range='[0.0.0,1.3.100.v20240808-2102)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.pluginName' value='ECF Discovery DNSSD Provider'/>
+      <property name='df_LT.pluginProvider' value='Eclipse.org - ECF'/>
+      <property name='org.eclipse.equinox.p2.name' value='%pluginName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%pluginProvider'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.dnssd'/>
+      <property name='maven-version' value='1.3.100-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='7'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.provider.dnssd' version='1.3.100.v20240808-2102'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.provider.dnssd' version='1.3.100.v20240808-2102'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.provider.dnssd' version='1.0.0'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.provider.dnssd' version='1.3.100.v20240808-2102'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='osgi.remoteserviceadmin.discovery' name='org.eclipse.ecf.provider.dnssd_1.3.100.v20240808-2102-1' version='1.1.0'>
+        <properties size='1'>
+          <property name='protocols' value='DNSSD,ecf.discovery.dnssd.locator,ecf.discovery.dnssd.advertiser' type='List'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <requires size='17'>
+      <required namespace='osgi.bundle' name='org.xbill.dns' range='3.6.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.common' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core' range='3.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.events' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.identity' range='3.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.provider' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.security' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.util' range='3.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.discovery' range='4.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.discovery.identity' range='3.0.0'/>
+      <required namespace='java.package' name='org.eclipse.osgi.util' range='1.0.0'/>
+      <required namespace='java.package' name='org.osgi.framework' range='1.5.0'/>
+      <required namespace='java.package' name='org.osgi.service.cm' range='1.2.0' optional='true' greedy='false'/>
+      <required namespace='java.package' name='org.osgi.service.log' range='1.3.0'/>
+      <required namespace='java.package' name='org.osgi.util.tracker' range='1.3.1'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=17))'>
+        <description>
+          org.eclipse.ecf.provider.dnssd
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.provider.dnssd.source' range='[1.3.100.v20240808-2102,1.3.100.v20240808-2102]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.dnssd' version='1.3.100.v20240808-2102'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.provider.dnssd;singleton:=true&#xA;Bundle-Version: 1.3.100.v20240808-2102&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.ecf.provider.dnssd.source' version='1.3.100.v20240808-2102' singleton='false'>
+    <update id='org.eclipse.ecf.provider.dnssd.source' range='[0.0.0,1.3.100.v20240808-2102)' severity='0'/>
+    <properties size='10'>
+      <property name='df_LT.bundleVendor' value='Eclipse.org - ECF'/>
+      <property name='df_LT.bundleName' value='ECF Discovery DNSSD Provider Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.dnssd'/>
+      <property name='maven-version' value='1.3.100-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.provider.dnssd.source' version='1.3.100.v20240808-2102'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.provider.dnssd.source' version='1.3.100.v20240808-2102'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.provider.dnssd.source' version='1.3.100.v20240808-2102'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.dnssd.source' version='1.3.100.v20240808-2102'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.provider.dnssd.source&#xA;Bundle-Version: 1.3.100.v20240808-2102&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

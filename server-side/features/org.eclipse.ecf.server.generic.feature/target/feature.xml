@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.server.generic.feature"
+      label="%featureName"
+      version="1.2.103.v20231021-2127"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides ECF server support for servers that use the ECF Generic Provider.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.ecf.provider.generic.remoteservice.feature" version="1.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ecf.server"
+         download-size="5"
+         install-size="6"
+         version="2.1.301.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.server.generic"
+         download-size="95"
+         install-size="187"
+         version="8.2.0.v20231021-2015"
+         unpack="false"/>
+
+</feature>

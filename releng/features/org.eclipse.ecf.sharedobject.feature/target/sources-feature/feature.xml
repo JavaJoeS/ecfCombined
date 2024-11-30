@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.ecf.sharedobject.feature.source" version="1.1.1.v20231021-2127" label="ECF SharedObject Feature Developer Resources" provider-name="Eclipse.org - ECF">
+  <description url="http://www.eclipse.org/ecf">
+      This feature provides the ECF Shared Object API.   The ECF Shared Object API may be used to implement modular implementations for other APIs...e.g. Datashare, Remote Services, etc.
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.ecf.sharedobject.source" version="2.6.200.v20210922-0753" download-size="0" install-size="0" unpack="false"/>
+</feature>

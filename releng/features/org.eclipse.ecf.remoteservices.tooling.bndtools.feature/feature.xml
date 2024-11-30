@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.remoteservices.tooling.bndtools.feature"
+      label="ECF Remote Services Bndtools Support"
+      version="1.2.0.qualifier"
+      provider-name="Eclipse.org - ECF">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides the ECF Remote Services Bndtools Support bundle.  This bundle provides ECF Remote Services support and UI for Bndtools 7.1+.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="bndtools.main.feature" version="7.1.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ecf.remoteservices.tooling.bndtools"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

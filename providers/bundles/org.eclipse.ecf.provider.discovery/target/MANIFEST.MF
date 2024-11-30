@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.ecf.provider.discovery;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.provider.discovery
+Bundle-Version: 3.0.102.v20230528-2316
+Bundle-Vendor: %pluginProvider
+Import-Package: org.eclipse.equinox.concurrent.future;version="1.0.0",or
+ g.osgi.framework,org.osgi.util.tracker
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ecf,org.eclipse.ecf.discovery,org.eclipse.eq
+ uinox.common
+Bundle-Activator: org.eclipse.ecf.internal.provider.discovery.Activator
+Export-Package: org.eclipse.ecf.provider.discovery;x-friends:="org.eclip
+ se.ecf.tests.provider.discovery"
+Bundle-ActivationPolicy: lazy
+Provide-Capability: osgi.remoteserviceadmin.discovery;protocols:List<Str
+ ing>="ecf.discovery.composite,ecf.discovery.composite.locator,ecf.disco
+ very.composite.advertiser";version:Version=1.1
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
+ viders/bundles/org.eclipse.ecf.provider.discovery;path="providers/bundl
+ es/org.eclipse.ecf.provider.discovery";commitId=e355fb411958bd12f0c678e
+ 5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

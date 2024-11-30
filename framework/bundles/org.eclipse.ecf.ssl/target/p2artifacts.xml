@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.ssl' version='1.3.100.v20240812-1535'>
+    <properties size='9'>
+      <property name='artifact.size' value='10913'/>
+      <property name='download.size' value='10913'/>
+      <property name='download.checksum.sha-512' value='e729a8d8ef50a3de479c97baf295ab4425983008eff7887cf78d57dce142bc2b11c686108364d5b289569637c5febc6fa08d713a1ac877531f98bf4b6f56172d'/>
+      <property name='download.checksum.sha-1' value='48e16ea874342a8f32282a3a95725717ef5539eb'/>
+      <property name='download.checksum.sha-256' value='669f3788a304f90dc2c01280f26d8c72ff52d7762237b19854eabe2243cf9ca4'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.ssl'/>
+      <property name='maven-version' value='1.3.100-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.ssl.source' version='1.3.100.v20240812-1535'>
+    <properties size='10'>
+      <property name='artifact.size' value='8975'/>
+      <property name='download.size' value='8975'/>
+      <property name='download.checksum.sha-512' value='1901a5d4bd47ae26c1f6ec3c84e945338811e1b35e9379bc7aa9d63fa0cb7994b6077a8be5a5f6975b87911f99d9ad5f877f4299d314cb2d88939c05bc6530ae'/>
+      <property name='download.checksum.sha-1' value='0fa6fec4927b7bfa303e17861888c124a6d24718'/>
+      <property name='download.checksum.sha-256' value='991526b78a16b410228a2962006d3a93b91c116d7cfa27f86fd3390c54f1196f'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.ssl'/>
+      <property name='maven-version' value='1.3.100-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

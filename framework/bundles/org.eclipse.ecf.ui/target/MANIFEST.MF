@@ -1,0 +1,34 @@
+Manifest-Version: 1.0
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.ui;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.ui
+Bundle-Version: 2.3.0.v20231021-2050
+Bundle-Activator: org.eclipse.ecf.internal.ui.Activator
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.ecf.internal.ui;version="2.1.0";x-internal:=
+ true,org.eclipse.ecf.internal.ui.actions;version="2.1.0";x-internal:=tr
+ ue,org.eclipse.ecf.internal.ui.perspectives;version="2.1.0";x-internal:
+ =true,org.eclipse.ecf.internal.ui.wizards;version="2.1.0";x-internal:=t
+ rue,org.eclipse.ecf.ui;version="2.1.0",org.eclipse.ecf.ui.actions;versi
+ on="2.1.0",org.eclipse.ecf.ui.dialogs;version="2.1.0",org.eclipse.ecf.u
+ i.hyperlink;version="2.1.0",org.eclipse.ecf.ui.screencapture;version="2
+ .1.0",org.eclipse.ecf.ui.util;version="2.1.0",org.eclipse.ecf.ui.wizard
+ s;version="2.1.0"
+Eclipse-RegisterBuddy: org.eclipse.ecf
+Eclipse-BuddyPolicy: dependent
+Require-Bundle: org.eclipse.ecf,org.eclipse.ecf.presence,org.eclipse.jfa
+ ce.text,org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.ecf.filetra
+ nsfer,org.eclipse.ecf.sharedobject
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.equinox.security.storage;version="1.0.0",org
+ .eclipse.ui.editors.text;resolution:=optional
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf.ui;path="framework/bundles/org.eclipse.e
+ cf.ui";commitId=e355fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

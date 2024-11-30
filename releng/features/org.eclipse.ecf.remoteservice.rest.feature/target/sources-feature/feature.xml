@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.ecf.remoteservice.rest.feature.source" version="1.0.303.v20240709-0844" label="ECF Remote Services REST Support Developer Resources" provider-name="%providerName">
+  <description url="http://www.eclipse.org/ecf">
+      This feature provides the REST support for ECF Remote Services. 
+This API allows REST-based OSGi Remote Services to easily be created.  For information about REST-based remote services see:
+
+https://wiki.eclipse.org/ECF#OSGi_Remote_Services
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.ecf.remoteservice.rest.source" version="2.8.1.v20240405-1603" download-size="0" install-size="0" unpack="false"/>
+</feature>

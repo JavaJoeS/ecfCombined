@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.provider.generic.remoteservice.feature' version='1.2.1.v20231021-2127'>
+    <properties size='10'>
+      <property name='artifact.size' value='14094'/>
+      <property name='download.size' value='14094'/>
+      <property name='download.checksum.sha-512' value='abbd590bf918cee044c00c9dd7f52982e7626b4f465b0202495eba09329ea2e20deca69345e0a0967ac96a6e06c2ffbe93523fd92da5f115945947ba70e4d0f0'/>
+      <property name='download.checksum.sha-1' value='c478e1fb2d79b0c8fbbcd079951a95c9f8229f97'/>
+      <property name='download.checksum.sha-256' value='51e03e53b894a52ce38e73367a87847a372f6f9d92a847ea49f25b9668463e4e'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.generic.remoteservice.feature'/>
+      <property name='maven-version' value='1.2.1-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.provider.generic.remoteservice.feature.source' version='1.2.1.v20231021-2127'>
+    <properties size='11'>
+      <property name='artifact.size' value='15296'/>
+      <property name='download.size' value='15296'/>
+      <property name='download.checksum.sha-512' value='c4ee2f88296939d55a80f9fcffd430fa32915d33ca49a220000483c99b811d824dc0da7cd155d28583c355e99ed2d21a89d9700b4e255411d9a873f51b3a5737'/>
+      <property name='download.checksum.sha-1' value='ee8d214fa9bab770c4d237c6841d283b3177d2c2'/>
+      <property name='download.checksum.sha-256' value='c835124accf820d496c2c176b73d0555ee1cb0112bbb20ccb413f05dfc42227e'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.generic.remoteservice.feature'/>
+      <property name='maven-version' value='1.2.1-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources-feature'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

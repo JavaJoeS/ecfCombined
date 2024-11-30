@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.ecf.provider.irc' version='1.3.401.v20231021-2050' generation='2'>
+    <update id='org.eclipse.ecf.provider.irc' range='[0.0.0,1.3.401.v20231021-2050)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.plugin.provider' value='Eclipse.org - ECF'/>
+      <property name='df_LT.plugin.name' value='ECF IRC Provider'/>
+      <property name='org.eclipse.equinox.p2.name' value='%plugin.name'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%plugin.provider'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='plugin'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.irc'/>
+      <property name='maven-version' value='1.3.401-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='9'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.provider.irc' version='1.3.401.v20231021-2050'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.provider.irc' version='1.3.401.v20231021-2050'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.internal.provider.irc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.internal.provider.irc.container' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.internal.provider.irc.identity' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.internal.provider.irc.datashare' version='0.0.0'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.provider.irc' version='1.3.401.v20231021-2050'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <requires size='12'>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.common' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.presence' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.datashare' range='0.0.0' optional='true' greedy='false'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.provider.datashare.nio' range='0.0.0' optional='true' greedy='false'/>
+      <required namespace='java.package' name='org.eclipse.equinox.concurrent.future' range='1.0.0'/>
+      <required namespace='java.package' name='org.eclipse.osgi.util' range='1.0.0'/>
+      <required namespace='java.package' name='org.osgi.framework' range='1.3.0'/>
+      <required namespace='java.package' name='org.osgi.service.log' range='1.3.0'/>
+      <required namespace='java.package' name='org.osgi.util.tracker' range='1.3.2'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=11))'>
+        <description>
+          org.eclipse.ecf.provider.irc
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.provider.irc.source' range='[1.3.401.v20231021-2050,1.3.401.v20231021-2050]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.irc' version='1.3.401.v20231021-2050'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.provider.irc; singleton:=true&#xA;Bundle-Version: 1.3.401.v20231021-2050&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.ecf.provider.irc.source' version='1.3.401.v20231021-2050' singleton='false'>
+    <update id='org.eclipse.ecf.provider.irc.source' range='[0.0.0,1.3.401.v20231021-2050)' severity='0'/>
+    <properties size='10'>
+      <property name='df_LT.bundleVendor' value='Eclipse.org - ECF'/>
+      <property name='df_LT.bundleName' value='ECF IRC Provider Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.irc'/>
+      <property name='maven-version' value='1.3.401-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.provider.irc.source' version='1.3.401.v20231021-2050'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.provider.irc.source' version='1.3.401.v20231021-2050'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.provider.irc.source' version='1.3.401.v20231021-2050'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.irc.source' version='1.3.401.v20231021-2050'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.provider.irc.source&#xA;Bundle-Version: 1.3.401.v20231021-2050&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

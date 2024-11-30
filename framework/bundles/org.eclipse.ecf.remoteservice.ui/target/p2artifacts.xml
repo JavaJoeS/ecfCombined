@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.remoteservice.ui' version='3.4.400.v20210403-2254'>
+    <properties size='9'>
+      <property name='artifact.size' value='148091'/>
+      <property name='download.size' value='148091'/>
+      <property name='download.checksum.sha-512' value='812557958239c950634428204752532bb01ceb3460d4d2aad49a5bfa0d248bfd379ed12dd2e623291a08513d8c1ab590bcd4946f1acd8c4889d39e50737807e5'/>
+      <property name='download.checksum.sha-1' value='ad982d1468da8dfbeced084a8fe08b3873e54ab5'/>
+      <property name='download.checksum.sha-256' value='46287ce46f086931163ae836b8dc7103852249c2db5d08f7deb2468b0c6f276f'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.remoteservice.ui'/>
+      <property name='maven-version' value='3.4.400-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.remoteservice.ui.source' version='3.4.400.v20210403-2254'>
+    <properties size='10'>
+      <property name='artifact.size' value='94908'/>
+      <property name='download.size' value='94908'/>
+      <property name='download.checksum.sha-512' value='26b1d23eaf5c3af223aaa5a61a3fcf3fe46aec91624c965cbebd892fe3b68856177e1f695b96d7f33907e3fbd56067d1f1e67b3cee2584350167eef274cfd1a0'/>
+      <property name='download.checksum.sha-1' value='9ff1d3805ab5704532dceefe8d914a80463d1507'/>
+      <property name='download.checksum.sha-256' value='4e7cd82f653ac145466fc43761cf2dc3456e07af85dc8e0a49a7b4b9471cae67'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.remoteservice.ui'/>
+      <property name='maven-version' value='3.4.400-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

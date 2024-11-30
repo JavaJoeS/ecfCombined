@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ECF Remote Service Admin (RSA) Proxy
+Bundle-SymbolicName: org.eclipse.ecf.osgi.services.remoteserviceadmin.pr
+ oxy
+Automatic-Module-Name: org.eclipse.ecf.osgi.services.remoteserviceadmin.
+ proxy
+Bundle-Version: 1.0.102.v20221117-1507
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-Vendor: Eclipse.org - ECF
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/osg
+ i/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin.proxy;path="
+ osgi/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin.proxy";co
+ mmitId=e355fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+

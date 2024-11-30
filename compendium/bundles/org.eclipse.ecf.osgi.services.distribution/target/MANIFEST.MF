@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.ecf.osgi.services.distribution
+Automatic-Module-Name: org.eclipse.ecf.osgi.services.distribution
+Bundle-Version: 2.1.700.v20231021-2127
+Bundle-Vendor: %pluginProvider
+Import-Package: org.eclipse.ecf.core.util;version="3.6.0",org.eclipse.ec
+ f.osgi.services.remoteserviceadmin;version="[1.0.0,2.0.0)",org.osgi.fra
+ mework;version="[1.3.0,2.0.0)",org.osgi.framework.hooks.service;version
+ ="[1.1.0,2.0.0)",org.osgi.service.remoteserviceadmin;version="[1.0.0,2.
+ 0.0)"
+Bundle-Localization: plugin
+Export-Package: org.eclipse.ecf.osgi.services.distribution;version="2.0.
+ 0";x-internal:=true
+Provide-Capability: osgi.remoteserviceadmin.topology; policy:List<String
+ >="promiscuous"; version:Version=1.1
+Bundle-Activator: org.eclipse.ecf.internal.osgi.services.distribution.Ac
+ tivator
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/com
+ pendium/bundles/org.eclipse.ecf.osgi.services.distribution;path="compen
+ dium/bundles/org.eclipse.ecf.osgi.services.distribution";commitId=e355f
+ b411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

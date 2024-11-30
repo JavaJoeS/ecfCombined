@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="javadoc">
+	
+	<path id="files.classpath">
+		<fileset dir="${target}/">
+			<filename name="**/*.jar" />
+		</fileset>
+		<fileset dir="/opt/hudson/jobs/R-HEAD-sdk.feature/workspace/projects/org.eclipse.osgi.services.remoteserviceadmin/osgi/">
+		    <filename name="**/*.jar" />
+		</fileset>
+	</path>
+	
+    <target name="javadoc">
+    	<echo message="${target}"/>
+    	<echo message="${source}"/>
+       	<echo message="${output}"/>
+        <javadoc access="protected" additionalparam="-J-Xmx512m  -tag model:a:Model -tag generated:a:Generated -tag noreference:tcmf:DoNotReference -tag ordered:a:Ordered -tag noimplement:a:NoImplement -tag noextend:a:NoExtend -tag ThreadSafe -tag Immutable -tag deprecated:a:Deprecated" 
+        	author="false" 
+        	classpathref="files.classpath" 
+        	destdir="${output}" 
+        	doctitle="Eclipse Communication Framework (ECF) 3.14.7" 
+        	nodeprecated="false" 
+        	nodeprecatedlist="false" 
+        	noindex="false" 
+        	nonavbar="false" 
+        	notree="false" 
+        	source="1.5" 
+        	splitindex="true" 
+        	use="true" 
+        	version="true">
+        	
+        	<fileset dir="${source}" defaultexcludes="true">
+	        	<include name="**/*.java"/>
+	        	<exclude name="**/ui/**"/>
+	        	<exclude name="**/smack/**"/>
+	        	<exclude name="**/incubation/**"/>
+	        	<exclude name="**/internal/**"/>
+	        	<exclude name="**/ch/**"/>
+	        	<exclude name="**/jmdns/**"/>
+	        	<exclude name="**/tests/**"/>
+	        	<exclude name="**/sdo/**"/>
+	        	<exclude name="**/tutorial/**"/>
+	        	<exclude name="**/twitter/**"/>
+	        	<exclude name="**/jivesoftware/**"/>
+	        	<exclude name="**/pubsub/**"/>
+	        	<exclude name="**/collab/**"/>
+	        	<exclude name="**/osgi/services/discovery/**"/>
+	        	<exclude name="**/com/mycorp/examples/**"/>
+        		<exclude name="**/org/eclipse/ecf/core/start/**"/>
+        		<exclude name="**/org/eclipse/ecf/core/user/**"/>
+	        	<exclude name="**/org/eclipse/ecf/docshare/**"/>
+        		<exclude name="**/org/eclipse/ecf/datashare/**"/>
+	        	<exclude name="**/org/eclipse/ecf/examples/**"/>
+	        	<exclude name="**/org/eclipse/ecf/example/**"/>
+	        	<exclude name="**/org/eclipse/ecf/presence/**"/>
+	        	<exclude name="**/org/eclipse/ecf/protocol/msn/**"/>
+	        	<exclude name="**/org/eclipse/ecf/provider/irc/**"/>
+        		<exclude name="**/org/eclipse/ecf/provider/datashare/**"/>
+        		<exclude name="**/org/eclipse/ecf/provider/discovery/**"/>
+        		<exclude name="**/org/eclipse/ecf/provider/xmpp/**"/>
+	        	<exclude name="**/org/eclipse/ecf/remoteservice/rpc/**"/>
+	        	<exclude name="**/org/eclipse/ecf/remoteservice/soap/**"/>
+	        	<exclude name="**/org/eclipse/ecf/server/**"/>
+	        	<exclude name="**/org/eclipse/ecf/storage/**"/>
+	        	<exclude name="**/org/eclipse/ecf/sync/**"/>
+	        	<exclude name="**/org/eclipse/ecf/telephony/**"/>
+	        	<exclude name="**/org/eclipse/ecf/telephony/**"/>
+	        	<exclude name="**/org.eclipse.ecf.remoteservice.asyncproxy.j8/**"/>
+	        	<exclude name="**/org.eclipse.ecf.remoteservices.tooling.pde/templates/**"/>
+        	</fileset>
+    	</javadoc>
+    </target>
+</project>

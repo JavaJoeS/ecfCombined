@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.datashare.feature"
+      label="ECF Datashare"
+      version="1.0.201.v20230528-2254"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides the ECF Datashare API for asynchronous
+messaging within a named channel.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ecf"/>
+      <import plugin="org.eclipse.ecf.identity"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ecf.datashare"
+         download-size="17"
+         install-size="20"
+         version="3.0.301.v20230528-2254"
+         unpack="false"/>
+
+</feature>

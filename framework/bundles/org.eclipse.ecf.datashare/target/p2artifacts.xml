@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.datashare' version='3.0.301.v20230528-2254'>
+    <properties size='9'>
+      <property name='artifact.size' value='17651'/>
+      <property name='download.size' value='17651'/>
+      <property name='download.checksum.sha-512' value='06000e2f95ead25d0b48bdb5b06e45e1ce57ccce8f408acb33c51b360e4a999bc11ca3bfb63d5d47590b8c6e0b60939828496069572deacac226a6c634b0b8cc'/>
+      <property name='download.checksum.sha-1' value='76e104eb5c8d1f2e11c5ae14e9fb9ee5a2b1d06a'/>
+      <property name='download.checksum.sha-256' value='04ad224c92e2c329edd2e672b3ede865b93dcf7bbfab539e05d697343a28326c'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.datashare'/>
+      <property name='maven-version' value='3.0.301-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.datashare.source' version='3.0.301.v20230528-2254'>
+    <properties size='10'>
+      <property name='artifact.size' value='25665'/>
+      <property name='download.size' value='25665'/>
+      <property name='download.checksum.sha-512' value='177d79ca4ed8fe7d122f5e637e6f71c71cd82ad87c6afd0c6becac62445129a1b7795aab5c255a762912d2d5c9ab9d06bd79c4ea11c5927b125b930f7db8ef09'/>
+      <property name='download.checksum.sha-1' value='74b52f649eeb0354dea703fc2f2c9823343df6c8'/>
+      <property name='download.checksum.sha-256' value='2558f402f4189712531409cbce2e0b5dfb821efedba61ad5cb243f7aff1b5550'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.datashare'/>
+      <property name='maven-version' value='3.0.301-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

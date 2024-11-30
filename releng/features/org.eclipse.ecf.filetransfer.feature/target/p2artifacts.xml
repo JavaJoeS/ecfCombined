@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.filetransfer.feature' version='3.14.1900.v20240812-1535'>
+    <properties size='10'>
+      <property name='artifact.size' value='22285'/>
+      <property name='download.size' value='22285'/>
+      <property name='download.checksum.sha-512' value='250e27817ace4bdc9ad2a3a6728cb7b4addaab6c4589a6d9bfea69c2aef45e92b738c3b2093d1fa04e05570a346c672cecd2cfdb429fc97f6a1f346f3310d36b'/>
+      <property name='download.checksum.sha-1' value='6c24f44c989fa72a742c3e60de05b07494a67c62'/>
+      <property name='download.checksum.sha-256' value='afa48c4b155d43c72d061dcae0c7a4163a6ee89f48bcd0ea360089355d928738'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.filetransfer.feature'/>
+      <property name='maven-version' value='3.14.1900-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.filetransfer.feature.source' version='3.14.1900.v20240812-1535'>
+    <properties size='11'>
+      <property name='artifact.size' value='23377'/>
+      <property name='download.size' value='23377'/>
+      <property name='download.checksum.sha-512' value='da999f25acd311df89c48beeacfe0d248a219257ab3fd88747c30df22c9ce1c9b7049415594943daaa4d93e86a45fba6ed4abfc53f5b2b86f806d432f3d1354b'/>
+      <property name='download.checksum.sha-1' value='83870ebb9695b9f0ae6cef0dea2d46c962fcc5c0'/>
+      <property name='download.checksum.sha-256' value='d79d0bd4ce4662f9177458d6e35c9391490d7f4d0a08ac743ddcda8f9765f081'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.filetransfer.feature'/>
+      <property name='maven-version' value='3.14.1900-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources-feature'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

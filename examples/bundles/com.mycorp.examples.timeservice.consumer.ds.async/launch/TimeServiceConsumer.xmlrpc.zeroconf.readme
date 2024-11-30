@@ -1,0 +1,10 @@
+The use of the TimeServiceConsumer.xmlrpc.zeroconf.product relies on the presence of the 
+org.eclipse.ecf.provider.xmlrpc distribution provider. 
+
+This distribution provider is provided separately here:
+
+https://github.com/ECF/XmlRpcProvider
+
+All of the ECF distribution providers are listed here:  
+https://wiki.eclipse.org/Distribution_Providers
+

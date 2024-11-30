@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.ui' version='2.3.0.v20231021-2050'>
+    <properties size='9'>
+      <property name='artifact.size' value='128701'/>
+      <property name='download.size' value='128701'/>
+      <property name='download.checksum.sha-512' value='48cd9770fcd0814dc713ee9b658d6e43b2f60fd68f2358f0c81cc3a776d811e3e28e253fe809c4637ee87013710c27eb02cad1a1b323c97fb6fbc16b1874acc1'/>
+      <property name='download.checksum.sha-1' value='7675c9150d20d10cf93b832f8b94d0156a873608'/>
+      <property name='download.checksum.sha-256' value='6c690ce3d08acb8c06596cbfb5957671ca27f4776e5476185e918a28677335fb'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.ui'/>
+      <property name='maven-version' value='2.3.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.ui.source' version='2.3.0.v20231021-2050'>
+    <properties size='10'>
+      <property name='artifact.size' value='67175'/>
+      <property name='download.size' value='67175'/>
+      <property name='download.checksum.sha-512' value='6f677968ea879894ccadb962d49fccccdc188c2351cd5b967778de912efb99fe3bb4a8254b382f789811c77c1633927c2fd1f43dee31e3e427826f29be1d66b3'/>
+      <property name='download.checksum.sha-1' value='c2644f452b8031cfd6844188b3ba1f74091e53f5'/>
+      <property name='download.checksum.sha-256' value='f42133d9fb223053fff9184c1ad40136d1ad113d87d4085f9a0b6dc5181d4f46'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.ui'/>
+      <property name='maven-version' value='2.3.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.tests.remoteservice.generic;singlet
+ on:=true
+Automatic-Module-Name: org.eclipse.ecf.tests.remoteservice.generic
+Bundle-Version: 2.1.102.v20230528-2254
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.equinox.common,org.eclipse.ecf,org.eclipse.e
+ cf.tests,org.eclipse.ecf.remoteservice,org.junit,org.eclipse.equinox.ap
+ p;bundle-version="1.2.0",org.eclipse.ecf.tests.remoteservice;bundle-ver
+ sion="2.0.0",org.eclipse.ecf.provider;bundle-version="3.0.0",org.eclips
+ e.ecf.server.generic;bundle-version="3.0.0"
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.ecf.remoteservice.asyncproxy;version="1.0.0"
+ ,org.eclipse.equinox.concurrent.future;version="1.0.0",org.eclipse.osgi
+ .util,org.osgi.framework;version="1.4.0",org.osgi.util.tracker;version=
+ "1.3.3"
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/tes
+ ts/bundles/org.eclipse.ecf.tests.remoteservice.generic;path="tests/bund
+ les/org.eclipse.ecf.tests.remoteservice.generic";commitId=e355fb411958b
+ d12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.2))"
+

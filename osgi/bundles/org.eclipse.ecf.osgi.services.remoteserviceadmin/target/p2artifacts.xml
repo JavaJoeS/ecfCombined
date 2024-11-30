@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.osgi.services.remoteserviceadmin' version='4.9.3.v20231021-2050'>
+    <properties size='9'>
+      <property name='artifact.size' value='248197'/>
+      <property name='download.size' value='248197'/>
+      <property name='download.checksum.sha-512' value='a6cba4fb10b2e8e88ff7b9f960370a19935c222a2d4f91e5395d757cf512f5cff869382df1dc0aac51bfd727bfb7147dcc4414026a8ddece3661a354e1ad12d3'/>
+      <property name='download.checksum.sha-1' value='f7064d8bfd213aa4585904be20bfbadc20b0840b'/>
+      <property name='download.checksum.sha-256' value='77fb048c1b956f008add7a5c40581347328a1fcfa1cd794f0247a0ddc509bf81'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.osgi.services.remoteserviceadmin'/>
+      <property name='maven-version' value='4.9.3-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.osgi.services.remoteserviceadmin.source' version='4.9.3.v20231021-2050'>
+    <properties size='10'>
+      <property name='artifact.size' value='112037'/>
+      <property name='download.size' value='112037'/>
+      <property name='download.checksum.sha-512' value='65c459e70b5a24a320d80ec9afa55537ddf2e6c5a04c15534f2510f02be0a5ed2e2aece50808c660ece2f0077c06f5f74a4aa82b3ebd4f4bc896f88ac28ed1de'/>
+      <property name='download.checksum.sha-1' value='2da339547ff66f8710832844a3c061e09bbc3150'/>
+      <property name='download.checksum.sha-256' value='5c5c4d3b8c073b1f0d0b7f29f1302b6dcb7923764b7b16a0e7ad3509ef14b6d5'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.osgi.services.remoteserviceadmin'/>
+      <property name='maven-version' value='4.9.3-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

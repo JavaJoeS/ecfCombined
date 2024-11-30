@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.provider.generic.datashare.feature"
+      label="ECF Generic Provider Datashare Feature"
+      version="1.0.202.v20231021-2127"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides the Datashare API support for the ECF Generic Provider.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.ecf.datashare.feature" version="1.0" match="compatible"/>
+      <import feature="org.eclipse.ecf.provider.generic.feature" version="1.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ecf.provider.datashare"
+         download-size="25"
+         install-size="51"
+         version="1.6.1.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.provider.datashare.nio"
+         download-size="27"
+         install-size="53"
+         version="0.9.301.v20230528-2254"
+         unpack="false"/>
+
+</feature>

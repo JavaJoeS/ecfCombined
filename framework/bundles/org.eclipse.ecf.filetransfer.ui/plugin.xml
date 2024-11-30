@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            category="org.eclipse.ecf.filetransfer.ui"
+            class="org.eclipse.ecf.filetransfer.ui.FileTransfersView"
+            icon="icons/transf_view.gif"
+            id="org.eclipse.ecf.filetransfer.ui.FileTransfersView"
+            name="%view.name.File_Transfers">
+      </view>
+      <category
+            id="org.eclipse.ecf.filetransfer.ui"
+            name="%views.category.name.File_Transfer"/>
+   </extension>
+   <extension
+         point="org.eclipse.ui.commands">
+      <category
+            id="org.eclipse.ecf.filetransfer.ui.category"
+            name="%commands.category.name.File_Transfer">
+      </category>
+      <command
+            categoryId="org.eclipse.ecf.filetransfer.ui.category"
+            defaultHandler="org.eclipse.ecf.internal.filetransfer.ui.GetFileHandler"
+            description="%command.description.Use_the_URL_specified_to_retrieve_a_file"
+            id="org.eclipse.ecf.filetransfer.ui.getFile"
+            name="%command.name.Start_New_File_Download">
+      </command>
+   </extension>
+   <extension
+         point="org.eclipse.ui.menus">
+     <menuContribution locationURI="toolbar:org.eclipse.ecf.filetransfer.ui.FileTransfersView">
+        <command
+              commandId="org.eclipse.ecf.filetransfer.ui.getFile"
+              style="push"
+              icon="icons/transf_download.gif"/>
+     </menuContribution>
+   </extension>
+      <extension
+         point="org.eclipse.ui.workbench.texteditor.hyperlinkDetectors">
+      <hyperlinkDetector
+            activate="true"
+            class="org.eclipse.ecf.internal.filetransfer.ui.hyperlink.SCPHyperlinkDetector"
+            id="org.eclipse.ecf.internal.filetransfer.ui.hyperlink.SCPHyperlinkDetector"
+            name="%SCPHyperlinkDetector"
+            targetId="org.eclipse.ui.DefaultTextEditor">
+      </hyperlinkDetector>
+   </extension>
+      <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            category="org.eclipse.ecf.ui.category"
+            class="org.eclipse.ecf.internal.filetransfer.ui.preferences.TransferPreferencePage"
+            id="org.eclipse.ecf.filetransfer.ui.preferences"
+            name="%page.name.File_Transfer">
+      </page>
+   </extension>
+   
+</plugin>

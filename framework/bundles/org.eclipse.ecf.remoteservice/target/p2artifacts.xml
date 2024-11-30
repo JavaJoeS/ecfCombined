@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.remoteservice' version='8.14.0.v20230528-2254'>
+    <properties size='9'>
+      <property name='artifact.size' value='159326'/>
+      <property name='download.size' value='159326'/>
+      <property name='download.checksum.sha-512' value='e25658aaa74638644a9c5a9bc2d3eb7481ccf9218789c73881f167243638f7a1c4bb1284d099571a70f566c771ffcc25bb0449bc87901a5c9debea1552a57bde'/>
+      <property name='download.checksum.sha-1' value='cac2eb434c1f46f78dc4e038aa156331539a65f5'/>
+      <property name='download.checksum.sha-256' value='a01d512b9f840a232d80951c771151879296877a26cf391faca76fced7506c7d'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.remoteservice'/>
+      <property name='maven-version' value='8.14.0-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.remoteservice.source' version='8.14.0.v20230528-2254'>
+    <properties size='10'>
+      <property name='artifact.size' value='120681'/>
+      <property name='download.size' value='120681'/>
+      <property name='download.checksum.sha-512' value='5acb83a42e44de3bd6dc5bde7bdf6edf03d641f7374c5b7df744903cee4c6d46f2895efe20fd5db77b4b15c5da45d4f9c7006c5e71a16ce90cd4cd7d5728769c'/>
+      <property name='download.checksum.sha-1' value='f91689a3a333d39ac07fcc303cdeaab1fa207d0d'/>
+      <property name='download.checksum.sha-256' value='e31c6f956da1098cef9c62a78f72973d53c1f54d5e882b0ee86a11566dddc6b0'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.remoteservice'/>
+      <property name='maven-version' value='8.14.0-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='2'>
+  <unit id='org.eclipse.ecf.osgi.services.remoteserviceadmin' version='4.9.3.v20231021-2050' singleton='false' generation='2'>
+    <update id='org.eclipse.ecf.osgi.services.remoteserviceadmin' range='[0.0.0,4.9.3.v20231021-2050)' severity='0'/>
+    <properties size='9'>
+      <property name='df_LT.bundle.name' value='ECF Remote Service Admin (RSA) Implementation'/>
+      <property name='df_LT.bundle.provider' value='Eclipse.org - ECF'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundle.name'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundle.provider'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='bundle'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.osgi.services.remoteserviceadmin'/>
+      <property name='maven-version' value='4.9.3-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+    <provides size='11'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.osgi.services.remoteserviceadmin' version='4.9.3.v20231021-2050'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.osgi.services.remoteserviceadmin' version='4.9.3.v20231021-2050'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.internal.osgi.services.remoteserviceadmin' version='0.0.0'/>
+      <provided namespace='java.package' name='org.eclipse.ecf.osgi.services.remoteserviceadmin' version='1.4.0'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.osgi.services.remoteserviceadmin' version='4.9.3.v20231021-2050'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='osgi.extender' name='osgi.remoteserviceadmin' version='1.1.0'/>
+      <provided namespace='osgi.remoteserviceadmin.discovery' name='org.eclipse.ecf.osgi.services.remoteserviceadmin_4.9.3.v20231021-2050-2' version='1.1.0'>
+        <properties size='1'>
+          <property name='protocols' value='local' type='List'/>
+        </properties>
+      </provided>
+      <provided namespace='osgi.extender' name='osgi.remoteserviceadmin.localdiscovery' version='1.0.0'/>
+      <provided namespace='osgi.service' name='org.eclipse.ecf.osgi.services.remoteserviceadmin_4.9.3.v20231021-2050-4' version='0.0.0'>
+        <properties size='1'>
+          <property name='objectClass' value='org.osgi.service.remoteserviceadmin.RemoteServiceAdmin' type='List'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <requires size='29'>
+      <required namespace='osgi.bundle' name='org.eclipse.ecf.osgi.services.remoteserviceadmin.proxy' range='[1.0.0,2.0.0)'/>
+      <required namespace='osgi.bundle' name='org.eclipse.equinox.common' range='[3.0.0,4.0.0)'/>
+      <required namespace='java.package' name='javax.xml.parsers' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core' range='[3.0.0,4.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.events' range='[3.1.0,4.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.identity' range='[3.2.0,4.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.jobs' range='[1.1.0,2.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.provider' range='0.0.0'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.security' range='[3.1.0,4.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.core.util' range='[3.2.0,4.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.discovery' range='[4.1.0,5.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.discovery.identity' range='[3.0.0,4.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.remoteservice' range='[7.2.0,8.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.remoteservice.events' range='[6.0.0,7.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.ecf.remoteservice.util' range='[8.2.0,9.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.equinox.concurrent.future' range='[1.0.0,2.0.0)'/>
+      <required namespace='java.package' name='org.eclipse.osgi.framework.eventmgr' range='[1.0.0,2.0.0)'/>
+      <required namespace='java.package' name='org.osgi.framework' range='[1.3.0,2.0.0)'/>
+      <required namespace='java.package' name='org.osgi.framework.hooks.service' range='[1.1.0,2.0.0)'/>
+      <required namespace='java.package' name='org.osgi.framework.wiring' range='[1.0.0,2.0.0)'/>
+      <required namespace='java.package' name='org.osgi.resource' range='[1.0.0,2.0.0)'/>
+      <required namespace='java.package' name='org.osgi.service.event' range='[1.0.0,2.0.0)'/>
+      <required namespace='java.package' name='org.osgi.service.log' range='[1.0.0,2.0.0)'/>
+      <required namespace='java.package' name='org.osgi.service.remoteserviceadmin' range='[1.1.0,2.0.0)'/>
+      <required namespace='java.package' name='org.osgi.service.remoteserviceadmin.namespace' range='[1.0.0,2.0.0)'/>
+      <required namespace='java.package' name='org.osgi.util.tracker' range='[1.3.2,2.0.0)'/>
+      <required namespace='java.package' name='org.xml.sax' range='0.0.0'/>
+      <requiredProperties namespace='osgi.ee' match='(&amp;(osgi.ee=JavaSE)(version=11))'>
+        <description>
+          org.eclipse.ecf.osgi.services.remoteserviceadmin
+        </description>
+      </requiredProperties>
+      <required namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.osgi.services.remoteserviceadmin.source' range='[4.9.3.v20231021-2050,4.9.3.v20231021-2050]' optional='true'>
+        <filter>
+          (org.eclipse.update.install.sources=true)
+        </filter>
+      </required>
+    </requires>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.osgi.services.remoteserviceadmin' version='4.9.3.v20231021-2050'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.osgi.services.remoteserviceadmin&#xA;Bundle-Version: 4.9.3.v20231021-2050&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+  <unit id='org.eclipse.ecf.osgi.services.remoteserviceadmin.source' version='4.9.3.v20231021-2050' singleton='false'>
+    <update id='org.eclipse.ecf.osgi.services.remoteserviceadmin.source' range='[0.0.0,4.9.3.v20231021-2050)' severity='0'/>
+    <properties size='10'>
+      <property name='df_LT.bundleVendor' value='Eclipse.org - ECF'/>
+      <property name='df_LT.bundleName' value='ECF Remote Service Admin (RSA) Implementation Source'/>
+      <property name='org.eclipse.equinox.p2.name' value='%bundleName'/>
+      <property name='org.eclipse.equinox.p2.provider' value='%bundleVendor'/>
+      <property name='org.eclipse.equinox.p2.bundle.localization' value='OSGI-INF/l10n/bundle-src'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.osgi.services.remoteserviceadmin'/>
+      <property name='maven-version' value='4.9.3-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+    <provides size='5'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='org.eclipse.ecf.osgi.services.remoteserviceadmin.source' version='4.9.3.v20231021-2050'/>
+      <provided namespace='osgi.bundle' name='org.eclipse.ecf.osgi.services.remoteserviceadmin.source' version='4.9.3.v20231021-2050'/>
+      <provided namespace='osgi.identity' name='org.eclipse.ecf.osgi.services.remoteserviceadmin.source' version='4.9.3.v20231021-2050'>
+        <properties size='1'>
+          <property name='type' value='osgi.bundle'/>
+        </properties>
+      </provided>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='source' version='1.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.localization' name='df_LT' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='org.eclipse.ecf.osgi.services.remoteserviceadmin.source' version='4.9.3.v20231021-2050'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: org.eclipse.ecf.osgi.services.remoteserviceadmin.source&#xA;Bundle-Version: 4.9.3.v20231021-2050&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.remoteservice.servlet
+Automatic-Module-Name: org.eclipse.ecf.remoteservice.servlet
+Bundle-Version: 1.0.201.v20230528-2254
+Bundle-Vendor: %plugin.provider
+Import-Package: javax.servlet,javax.servlet.http,org.eclipse.ecf.core.sh
+ aredobject;version="2.2.100",org.eclipse.ecf.provider.generic;version="
+ 4.3.0",org.eclipse.ecf.provider.remoteservice.generic;version="4.0.0",o
+ rg.eclipse.ecf.remoteservice;version="7.0.0",org.eclipse.ecf.remoteserv
+ ice.util;version="8.1.0",org.eclipse.equinox.concurrent.future;version=
+ "1.0.0",org.osgi.framework;version="1.7.0",org.osgi.service.http;versio
+ n="1.2.1"
+Export-Package: org.eclipse.ecf.remoteservice.servlet
+Require-Bundle: org.eclipse.equinox.common,org.eclipse.ecf
+Bundle-Localization: plugin
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf.remoteservice.servlet;path="framework/bu
+ ndles/org.eclipse.ecf.remoteservice.servlet";commitId=e355fb411958bd12f
+ 0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

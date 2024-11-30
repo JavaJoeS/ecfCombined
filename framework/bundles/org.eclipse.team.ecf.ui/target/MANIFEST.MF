@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.team.ecf.ui;singleton:=true
+Automatic-Module-Name: org.eclipse.team.ecf.ui
+Bundle-Version: 1.0.201.v20230528-2254
+Bundle-Vendor: %plugin.provider
+Bundle-Activator: org.eclipse.team.internal.ecf.core.TeamSynchronization
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.core.resources,org.
+ eclipse.team.core,org.eclipse.team.ui,org.eclipse.ui,org.eclipse.ecf,or
+ g.eclipse.ecf.datashare,org.eclipse.compare,org.eclipse.ecf.presence,or
+ g.eclipse.ecf.presence.ui,org.eclipse.ui.ide,org.eclipse.team.ecf.core
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.team.ecf.ui;path="framework/bundles/org.ecli
+ pse.team.ecf.ui";commitId=e355fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.2))"
+

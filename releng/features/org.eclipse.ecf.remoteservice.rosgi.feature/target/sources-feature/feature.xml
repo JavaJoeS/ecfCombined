@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.ecf.remoteservice.rosgi.feature.source" version="2.0.2.v20240406-1023" label="ECF Remote Services R-OSGi Provider Developer Resources" provider-name="%providerName">
+  <description url="http://www.eclipse.org/ecf">
+      This feature installs the ECF Remote Services R-OSGi Provider.  The R-OSGi provider is an implementation that provides the distribution for Remote Services.  For information about both Remote Services and the R-OSGi provider see
+
+https://wiki.eclipse.org/ECF#OSGi_Remote_Services
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="ch.ethz.iks.r_osgi.remote.source" version="1.3.0.v20240406-1023" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.eclipse.ecf.provider.r_osgi.source" version="3.7.0.v20231021-2050" download-size="0" install-size="0" unpack="false"/>
+  <plugin id="org.objectweb.asm.source" version="9.7.1" download-size="0" install-size="0" unpack="false"/>
+</feature>

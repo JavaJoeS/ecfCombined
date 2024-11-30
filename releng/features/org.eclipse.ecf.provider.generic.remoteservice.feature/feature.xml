@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.provider.generic.remoteservice.feature"
+      label="ECF Generic Provider RemoteService Feature"
+      version="1.2.1.qualifier"
+      provider-name="Eclipse.org - ECF"
+      license-feature="org.eclipse.license"
+      license-feature-version="0.0.0">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides the Remote Services support for the ECF Generic Provider.  This support allows the ECF Generic Provider to serve as an Remote Service/RSA distribution provider.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.ecf.remoteservice.feature" version="2.1.0" match="compatible"/>
+      <import feature="org.eclipse.ecf.provider.generic.feature" version="1.0.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ecf.provider.remoteservice"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

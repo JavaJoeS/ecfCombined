@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-Vendor: %plugin.provider
+Bundle-SymbolicName: org.eclipse.ecf.tests.filetransfer.httpclient4
+Automatic-Module-Name: org.eclipse.ecf.tests.filetransfer.httpclient4
+Bundle-Version: 1.0.100.qualifier
+Fragment-Host: org.eclipse.ecf.tests.filetransfer;bundle-version="2.0.400"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Localization: fragment
+Require-Bundle: org.eclipse.ecf.provider.filetransfer.httpclient4;bundle-version="1.0.100",
+ org.apache.httpcomponents.httpclient;bundle-version="4.1.2"

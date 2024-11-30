@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.xmpp' version='3.2.402.v20230528-2254'>
+    <properties size='9'>
+      <property name='artifact.size' value='155167'/>
+      <property name='download.size' value='155167'/>
+      <property name='download.checksum.sha-512' value='8744f307ac35c6fe35e9713e928861fc69133e6a555bfc70910aace5439ee7f1fcc2a9eb2435eea8be0b4e144aa20e51ae320c7bdafaa0eb993f87dd552c7aa5'/>
+      <property name='download.checksum.sha-1' value='02fc8089d663d7260f551486abe182a4c0f8d0de'/>
+      <property name='download.checksum.sha-256' value='f7001e6dadf6fd3c64cdf1d0099876b982b35f0ea050908a95c054339af77fbf'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.xmpp'/>
+      <property name='maven-version' value='3.2.402-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.provider.xmpp.source' version='3.2.402.v20230528-2254'>
+    <properties size='10'>
+      <property name='artifact.size' value='86059'/>
+      <property name='download.size' value='86059'/>
+      <property name='download.checksum.sha-512' value='6fb2c5ce393c903f18404aabac05b0c7fa59e0bf9dd7829b9e744818cd525e9fc47539ff79d9b345e87b96bc2fba69a5430c6a2377e65f35deb247ebb6f4d5b3'/>
+      <property name='download.checksum.sha-1' value='27f203fb5bbfce265fac2ac47eea2624d89ece55'/>
+      <property name='download.checksum.sha-256' value='569420fe5bb098c0114b782cbbba6ff9c18d443c3cb211d4d872dfc0398e819a'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.provider.xmpp'/>
+      <property name='maven-version' value='3.2.402-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.tests.ssl' version='1.0.101.v20230507-1923'>
+    <properties size='9'>
+      <property name='artifact.size' value='21768'/>
+      <property name='download.size' value='21768'/>
+      <property name='download.checksum.sha-512' value='222c39a1649799950c652035852eed28a761b7ad9ced5c3fdf67d0b5e2f21fac4b98bc762b75ef31968a4024f9b714c7fa1c89be1439c953ec4943de4768f098'/>
+      <property name='download.checksum.sha-1' value='6218caa12446fe48d2a6911886f6e0587989c4b0'/>
+      <property name='download.checksum.sha-256' value='3f75ee1c6f7571b7d1da8f1f2067f0bb0a97667fe34ac48210b5bd550ddabf2a'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.tests.ssl'/>
+      <property name='maven-version' value='1.0.101-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-test-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.tests.ssl.source' version='1.0.101.v20230507-1923'>
+    <properties size='10'>
+      <property name='artifact.size' value='6721'/>
+      <property name='download.size' value='6721'/>
+      <property name='download.checksum.sha-512' value='5c5c8fdc5b6fe3f81aed9414a1c17ba56a1a1c4a673c9d010ed89a666c05f91ffb40f7fd58eb7a2a117a39f90f0f3c7aaa34f7d2a8d6fd73e1f33bb3b52ed2bf'/>
+      <property name='download.checksum.sha-1' value='189edb75368a8511884fbaaba4e90bd8a2be62ff'/>
+      <property name='download.checksum.sha-256' value='527566f575226d33fd5f4ad58e327d10b03b2a9280320803a37bb66e1f337f58'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.tests.ssl'/>
+      <property name='maven-version' value='1.0.101-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

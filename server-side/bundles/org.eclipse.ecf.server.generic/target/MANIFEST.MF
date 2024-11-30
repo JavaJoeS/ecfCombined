@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.server.generic;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.server.generic
+Bundle-Version: 8.2.0.v20231021-2015
+Bundle-Activator: org.eclipse.ecf.internal.server.generic.Activator
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.equinox.common,org.eclipse.ecf,org.eclipse.e
+ cf.sharedobject,org.eclipse.ecf.provider,org.eclipse.ecf.discovery,org.
+ eclipse.ecf.provider.remoteservice;bundle-version="3.0.0",org.eclipse.e
+ cf.remoteservice;bundle-version="3.0.0",org.eclipse.equinox.registry;re
+ solution:=optional,org.eclipse.equinox.app;resolution:=optional
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.ecf.internal.server.generic;version="6.0.0";
+ x-internal:=true,org.eclipse.ecf.server.generic;version="7.1.0",org.ecl
+ ipse.ecf.server.generic.app;version="6.0.0"
+Import-Package: javax.xml.parsers,org.osgi.framework,org.osgi.service.lo
+ g,org.osgi.util.tracker,org.w3c.dom
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/ser
+ ver-side/bundles/org.eclipse.ecf.server.generic;path="server-side/bundl
+ es/org.eclipse.ecf.server.generic";commitId=e355fb411958bd12f0c678e5a76
+ 476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

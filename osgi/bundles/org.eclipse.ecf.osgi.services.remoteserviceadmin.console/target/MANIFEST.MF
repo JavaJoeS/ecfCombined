@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundle.name
+Bundle-SymbolicName: org.eclipse.ecf.osgi.services.remoteserviceadmin.co
+ nsole
+Bundle-Version: 1.3.200.v20241130-0859
+Bundle-Vendor: %bundle.provider
+Bundle-Localization: bundle
+Bundle-ActivationPolicy: lazy
+Import-Package: org.apache.felix.service.command;version="[0.10.0,2.0.0)
+ ";resolution:=optional,org.eclipse.ecf.console;version="[1.0.0,2.0.0)",
+ org.eclipse.ecf.osgi.services.remoteserviceadmin;version="[1.3.0,2.0.0)
+ ",org.osgi.framework;version="1.8.0",org.osgi.service.component.annotat
+ ions;version="[1.0.0,2.0.0)";resolution:=optional,org.osgi.service.remo
+ teserviceadmin;version="[1.1.0,2.0.0)"
+Require-Bundle: org.eclipse.equinox.common;bundle-version="[3.0.0,4.0.0)
+ ",org.apache.felix.gogo.runtime;bundle-version="[0.10.0,2.0.0)";resolut
+ ion:=optional,org.eclipse.ecf;bundle-version="[3.8.0,4.0.0)"
+Automatic-Module-Name: org.eclipse.ecf.osgi.services.remoteserviceadmin.
+ console
+Service-Component: OSGI-INF/org.eclipse.ecf.osgi.services.remoteservicea
+ dmin.console.RSACommand.xml
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/osg
+ i/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin.console;path
+ ="osgi/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin.console
+ ";commitId=973852cb24d7a5fea5168da085beb5341dba978a
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
+ nt)(version>=1.5.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
+ vaSE)(version=17))"
+

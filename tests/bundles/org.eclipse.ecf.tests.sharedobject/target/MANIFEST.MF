@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.tests.sharedobject
+Automatic-Module-Name: org.eclipse.ecf.tests.sharedobject
+Bundle-Version: 2.0.102.v20230528-2254
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.equinox.common,org.junit,org.eclipse.ecf,org
+ .eclipse.ecf.sharedobject,org.eclipse.ecf.tests
+Eclipse-LazyStart: true
+Import-Package: org.osgi.framework;version="1.4.0"
+Export-Package: org.eclipse.ecf.tests.sharedobject
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/tes
+ ts/bundles/org.eclipse.ecf.tests.sharedobject;path="tests/bundles/org.e
+ clipse.ecf.tests.sharedobject";commitId=e355fb411958bd12f0c678e5a764761
+ 98c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.2))"
+

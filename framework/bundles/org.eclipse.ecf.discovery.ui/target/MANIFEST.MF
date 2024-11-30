@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.ecf.discovery.ui;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.discovery.ui
+Bundle-Version: 3.0.301.v20231021-2050
+Bundle-ClassPath: .
+Bundle-Activator: org.eclipse.ecf.internal.discovery.ui.DiscoveryUIPlugi
+ n$Implementation
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)",
+ org.eclipse.ecf.discovery.ui.edit;bundle-version="3.0.0",org.eclipse.em
+ f.edit.ui;bundle-version="[2.2.0,3.0.0)",org.eclipse.ui;bundle-version=
+ "[3.3.0,4.0.0)",org.eclipse.ecf.discovery.ui.model;bundle-version="[3.0
+ .0,4.0.0)",org.eclipse.core.expressions;bundle-version="[3.3.0,4.0.0)",
+ org.eclipse.ecf.discovery;bundle-version="2.1.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: org.eclipse.ecf.discovery.ui;version="3.0.0"
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf.discovery.ui;path="framework/bundles/org
+ .eclipse.ecf.discovery.ui";commitId=e355fb411958bd12f0c678e5a76476198c8
+ 048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

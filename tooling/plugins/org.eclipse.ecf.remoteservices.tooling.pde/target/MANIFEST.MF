@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.remoteservices.tooling.pde;singleto
+ n:=true
+Automatic-Module-Name: org.eclipse.ecf.remoteservices.tooling.pde
+Bundle-Version: 1.2.0.v20240402-2354
+Bundle-Activator: org.eclipse.ecf.remoteservices.internal.tooling.pde.Ac
+ tivator
+Bundle-Vendor: %plugin.provider
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,org.eclipse.pde.
+ ui;bundle-version="3.7.1",org.eclipse.core.resources;bundle-version="3.
+ 8.1"
+Bundle-ActivationPolicy: lazy
+Bundle-Localization: plugin
+Import-Package: org.eclipse.pde.core.plugin
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/too
+ ling/plugins/org.eclipse.ecf.remoteservices.tooling.pde;path="tooling/p
+ lugins/org.eclipse.ecf.remoteservices.tooling.pde";commitId=e355fb41195
+ 8bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

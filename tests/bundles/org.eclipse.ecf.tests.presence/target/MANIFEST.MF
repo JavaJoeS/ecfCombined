@@ -1,0 +1,22 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.tests.presence
+Automatic-Module-Name: org.eclipse.ecf.tests.presence
+Bundle-Version: 2.0.102.v20230528-2254
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.ecf.tests,org.eclipse.ecf,org.eclipse.ecf.pr
+ esence,org.eclipse.ecf.sharedobject,org.junit,org.eclipse.core.runtime
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.ecf.tests.presence,org.eclipse.ecf.tests.pre
+ sence.sharedobject
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/tes
+ ts/bundles/org.eclipse.ecf.tests.presence;path="tests/bundles/org.eclip
+ se.ecf.tests.presence";commitId=e355fb411958bd12f0c678e5a76476198c8048e
+ 8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JRE)(version=1.1))"
+

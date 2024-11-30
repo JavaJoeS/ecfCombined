@@ -1,0 +1,63 @@
+/****************************************************************************
+ * Copyright (c) 2004 Composent, Inc. and others.
+ *
+ * This program and the accompanying materials are made
+ * available under the terms of the Eclipse Public License 2.0
+ * which is available at https://www.eclipse.org/legal/epl-2.0/
+ *
+ * Contributors:
+ *    Composent, Inc. - initial API and implementation
+ *
+ * SPDX-License-Identifier: EPL-2.0
+ *****************************************************************************/
+
+package org.eclipse.ecf.presence.chatroom;
+
+import org.eclipse.ecf.core.identity.ID;
+
+/**
+ * Chat room message event. This event class is used to deliver an
+ * {@link IChatRoomMessage} as an event.
+ */
+public class ChatRoomMessageEvent implements IChatRoomMessageEvent {
+
+	protected ID fromID;
+
+	protected IChatRoomMessage chatMessage;
+
+	public ChatRoomMessageEvent(ID fromID, IChatRoomMessage message) {
+		this.fromID = fromID;
+		this.chatMessage = message;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see org.eclipse.ecf.presence.chatroom.IChatRoomMessageEvent#getChatRoomMessage()
+	 */
+	public IChatRoomMessage getChatRoomMessage() {
+		return chatMessage;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see org.eclipse.ecf.presence.IIMMessageEvent#getFromID()
+	 */
+	public ID getFromID() {
+		return fromID;
+	}
+
+	/*
+	 * (non-Javadoc)
+	 * 
+	 * @see java.lang.Object#toString()
+	 */
+	public String toString() {
+		StringBuffer buf = new StringBuffer("ChatRoomMessageEvent["); //$NON-NLS-1$
+		buf.append("fromID=").append(getFromID()); //$NON-NLS-1$
+		buf.append(";chatMessage=").append(chatMessage).append("]"); //$NON-NLS-1$ //$NON-NLS-2$
+		return buf.toString();
+	}
+
+}

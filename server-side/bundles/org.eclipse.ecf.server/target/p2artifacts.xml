@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.server' version='2.1.301.v20231021-2050'>
+    <properties size='9'>
+      <property name='artifact.size' value='5680'/>
+      <property name='download.size' value='5680'/>
+      <property name='download.checksum.sha-512' value='3dac0ee5d723e4b6cecb63dec5f72193f5d3a8120ce0531871fcd1166f2e07f58b5824e7bfab1520317896ee2c37578d670fe3fb4b01e741b57f9c15777b7789'/>
+      <property name='download.checksum.sha-1' value='e50e78e2866ecbb1128acf8fff7882ec7ad5a45e'/>
+      <property name='download.checksum.sha-256' value='f964890a977d9815764e701bbadc458f93ff7f3149898b7e9052f243ab0df0c3'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.server'/>
+      <property name='maven-version' value='2.1.301-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.ecf.server.source' version='2.1.301.v20231021-2050'>
+    <properties size='10'>
+      <property name='artifact.size' value='7220'/>
+      <property name='download.size' value='7220'/>
+      <property name='download.checksum.sha-512' value='315ae9466cd9ea5a7349687ab099950e781649da64c71ac1db6e807a192abb68eb165cf91565c5f7f37a6371949c2931bd774fd1368dab4618a8238b55b8b0b0'/>
+      <property name='download.checksum.sha-1' value='db7f3962dd08b9480c8951214760b449591c8c8d'/>
+      <property name='download.checksum.sha-256' value='a05f3015bf90e7501d4b5324d7d990253333e62f195a19657ea43e753a1df13c'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.server'/>
+      <property name='maven-version' value='2.1.301-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

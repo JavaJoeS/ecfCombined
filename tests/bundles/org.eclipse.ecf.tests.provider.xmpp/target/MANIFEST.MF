@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: ECF Xmpp Provider Tests
+Bundle-SymbolicName: org.eclipse.ecf.tests.provider.xmpp
+Automatic-Module-Name: org.eclipse.ecf.tests.provider.xmpp
+Bundle-Version: 2.0.102.v20230528-2254
+Bundle-Vendor: Eclipse.org
+Require-Bundle: org.eclipse.core.runtime,org.junit,org.eclipse.ecf,org.e
+ clipse.ecf.tests.presence,org.eclipse.ecf.tests.remoteservice,org.eclip
+ se.ecf.tests,org.eclipse.ecf.tests.sharedobject,org.eclipse.ecf.sharedo
+ bject,org.eclipse.ecf.presence,org.eclipse.ecf.remoteservice,org.eclips
+ e.ecf.provider.xmpp,org.eclipse.ecf.datashare;bundle-version="2.0.0"
+Bundle-Localization: plugin
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.ecf.tests.provider.xmpp,org.eclipse.ecf.test
+ s.provider.xmpp.datashare,org.eclipse.ecf.tests.provider.xmpp.remoteser
+ vice,org.eclipse.ecf.tests.provider.xmpp.search,org.eclipse.ecf.tests.p
+ rovider.xmpp.sharedobject
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/tes
+ ts/bundles/org.eclipse.ecf.tests.provider.xmpp;path="tests/bundles/org.
+ eclipse.ecf.tests.provider.xmpp";commitId=e355fb411958bd12f0c678e5a7647
+ 6198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.2))"
+

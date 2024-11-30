@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.remoteservice.examples.feature"
+      label="ECF Remote Services Examples"
+      version="1.6.1.qualifier"
+      provider-name="%providerName"
+      license-feature="org.eclipse.license"
+      license-feature-version="0.0.0">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides ECF Remote Service Examples.  These are
+examples of the use of OSGi R6 Remote Services and Remote Service Admin.  Remote Services are specified in chapter 100 of the OSGi R6 Enterprise specification while RSA is specified in chapter 122 of the OSGi R6 Enterprise specification.  
+
+For specifications see 
+
+http://www.osgi.org/Specifications/HomePage
+
+For tutorials, documentation, and examples with ECF&apos;s Implementation of OSGi RS/RSA see
+
+https://wiki.eclipse.org/ECF#OSGi_Remote_Services
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.ecf.osgi.services.feature" version="2.6.1" match="compatible"/>
+      <import feature="org.eclipse.ecf.provider.generic.feature" version="1.0" match="compatible"/>
+      <import feature="org.eclipse.ecf.provider.generic.remoteservice.feature" version="1.0" match="compatible"/>
+      <import feature="org.eclipse.ecf.remoteservice.rosgi.feature" version="2.0" match="compatible"/>
+      <import feature="org.eclipse.ecf.discovery.jmdns.feature" version="1.0" match="compatible"/>
+   </requires>
+
+   <plugin
+         id="com.mycorp.examples.timeservice"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.mycorp.examples.timeservice.consumer"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.mycorp.examples.timeservice.consumer.ds"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.mycorp.examples.timeservice.consumer.filediscovery"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.mycorp.examples.timeservice.consumer.filediscovery.rest"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.mycorp.examples.timeservice.host"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.mycorp.examples.timeservice.async"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.mycorp.examples.timeservice.consumer.ds.async"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

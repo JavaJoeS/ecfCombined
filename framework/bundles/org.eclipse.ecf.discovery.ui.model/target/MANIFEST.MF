@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-SymbolicName: org.eclipse.ecf.discovery.ui.model;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.discovery.ui.model
+Bundle-Version: 3.0.202.v20231021-2050
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.3.0,4.0.0)",
+ org.eclipse.emf.ecore;bundle-version="[2.2.0,3.0.0)",org.eclipse.ecf.di
+ scovery;bundle-version="2.0.0",org.eclipse.ecf;bundle-version="2.0.0"
+Bundle-ActivationPolicy: lazy
+Export-Package: org.eclipse.ecf.discovery.ui.model;version="3.0.0",org.e
+ clipse.ecf.discovery.ui.model.impl;version="3.0.0",org.eclipse.ecf.disc
+ overy.ui.model.util;version="3.0.0"
+Bundle-Activator: org.eclipse.ecf.discovery.ui.model.ModelPlugin
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf.discovery.ui.model;path="framework/bundl
+ es/org.eclipse.ecf.discovery.ui.model";commitId=e355fb411958bd12f0c678e
+ 5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

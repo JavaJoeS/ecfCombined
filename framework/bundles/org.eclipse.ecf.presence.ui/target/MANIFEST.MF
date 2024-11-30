@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.presence.ui;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.presence.ui
+Bundle-Version: 2.4.201.v20221117-1507
+Bundle-Activator: org.eclipse.ecf.internal.presence.ui.Activator
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ecf,org.eclipse.ecf
+ .presence,org.eclipse.ecf.ui,org.eclipse.ui,org.eclipse.ui.forms
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.ecf.internal.presence.ui;x-internal:=true,or
+ g.eclipse.ecf.internal.presence.ui.dialogs;x-internal:=true,org.eclipse
+ .ecf.presence.ui;version="2.2.0",org.eclipse.ecf.presence.ui.chatroom;v
+ ersion="2.2.0",org.eclipse.ecf.presence.ui.dnd;version="2.2.0",org.ecli
+ pse.ecf.presence.ui.menu;version="2.2.0",org.eclipse.ecf.presence.ui.ro
+ ster;version="2.2.0"
+Import-Package: org.eclipse.core.expressions,org.eclipse.jface.text,org.
+ eclipse.jface.text.source,org.eclipse.ui.editors.text;resolution:=optio
+ nal
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf.presence.ui;path="framework/bundles/org.
+ eclipse.ecf.presence.ui";commitId=e355fb411958bd12f0c678e5a76476198c804
+ 8e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

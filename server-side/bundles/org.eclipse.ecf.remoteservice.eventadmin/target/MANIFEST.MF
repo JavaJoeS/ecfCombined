@@ -1,0 +1,26 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundleName
+Bundle-SymbolicName: org.eclipse.ecf.remoteservice.eventadmin
+Automatic-Module-Name: org.eclipse.ecf.remoteservice.eventadmin
+Bundle-Version: 1.3.101.v20231021-2050
+Bundle-Vendor: %bundleProvider
+Bundle-Localization: bundle
+Import-Package: org.eclipse.ecf.core.sharedobject,org.eclipse.ecf.core.s
+ haredobject.events,org.eclipse.osgi.framework.eventmgr;version="1.2.0",
+ org.osgi.framework;version="1.3.0",org.osgi.service.event;version="1.2.
+ 0",org.osgi.service.log;version="1.3.0",org.osgi.util.tracker;version="
+ 1.4.2"
+Require-Bundle: org.eclipse.equinox.common,org.eclipse.ecf
+Export-Package: org.eclipse.ecf.internal.remoteservice.eventadmin;x-inte
+ rnal:=true,org.eclipse.ecf.remoteservice.eventadmin;version="1.1.100",o
+ rg.eclipse.ecf.remoteservice.eventadmin.serialization
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/ser
+ ver-side/bundles/org.eclipse.ecf.remoteservice.eventadmin;path="server-
+ side/bundles/org.eclipse.ecf.remoteservice.eventadmin";commitId=e355fb4
+ 11958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

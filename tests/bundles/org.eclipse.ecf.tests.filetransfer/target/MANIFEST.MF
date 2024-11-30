@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.tests.filetransfer;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.tests.filetransfer
+Bundle-Version: 2.0.500.v20240402-2321
+Bundle-Activator: org.eclipse.ecf.tests.filetransfer.Activator
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Require-Bundle: org.junit,org.eclipse.ecf,org.eclipse.ecf.filetransfer;b
+ undle-version="4.0.0",org.eclipse.ecf.tests,org.eclipse.equinox.common,
+ org.eclipse.ecf.provider.filetransfer,org.eclipse.core.runtime
+Eclipse-LazyStart: true
+Import-Package: org.eclipse.core.net.proxy;resolution:=optional,org.ecli
+ pse.core.runtime.jobs,org.eclipse.equinox.concurrent.future;version="1.
+ 0.0",org.eclipse.osgi.util,org.osgi.framework;version="1.4.0",org.osgi.
+ service.url;version="1.0.0",org.osgi.util.tracker;version="1.3.2"
+Export-Package: org.eclipse.ecf.tests.filetransfer
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/tes
+ ts/bundles/org.eclipse.ecf.tests.filetransfer;path="tests/bundles/org.e
+ clipse.ecf.tests.filetransfer";commitId=e355fb411958bd12f0c678e5a764761
+ 98c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.5))"
+

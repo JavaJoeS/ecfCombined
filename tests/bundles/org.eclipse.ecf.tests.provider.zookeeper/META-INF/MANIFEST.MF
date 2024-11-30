@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %bundle.name
+Bundle-SymbolicName: org.eclipse.ecf.tests.provider.zookeeper
+Automatic-Module-Name: org.eclipse.ecf.tests.provider.zookeeper
+Bundle-Version: 1.0.201.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Require-Bundle: org.eclipse.ecf,
+ org.eclipse.ecf.discovery,
+ org.eclipse.ecf.tests.discovery,
+ org.junit,
+ org.eclipse.ecf.provider.zookeeper,
+ org.eclipse.equinox.common
+Bundle-Vendor: %bundle.provider
+Export-Package: org.eclipse.ecf.tests.provider.zookeeper,
+ org.eclipse.ecf.tests.provider.zookeeper.identity
+Import-Package: org.osgi.framework

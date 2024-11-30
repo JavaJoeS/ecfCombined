@@ -1,0 +1,80 @@
+-sourcepath '/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.discovery/src:/home/joe/Software/ScottsECF/ecf/osgi/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin.console/src:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.sharedobject/src:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.filetransfer.httpclient5/src:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.identity/src:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.remoteservice/src:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.jslp/src:/home/joe/Software/ScottsECF/ecf/server-side/bundles/org.eclipse.ecf.remoteservice.eventadmin/src_r7stubs:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.identity/src_r7stubs:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.console/src:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.remoteservice/src:/home/joe/Software/ScottsECF/ecf/protocols/bundles/ch.ethz.iks.r_osgi.remote/src/main/java:/home/joe/Software/ScottsECF/ecf/protocols/bundles/ch.ethz.iks.slp/src_r7stubs:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.filetransfer/src:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf/src:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.dnssd/src:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.remoteservice.asyncproxy.j8/src:/home/joe/Software/ScottsECF/ecf/osgi/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin/src:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.r_osgi/src:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.remoteservice.servlet/src:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.filetransfer/src:/home/joe/Software/ScottsECF/ecf/osgi/bundles/org.eclipse.osgi.services.remoteserviceadmin/src:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.filetransfer.httpclient45/src:/home/joe/Software/ScottsECF/ecf/server-side/bundles/org.eclipse.ecf.remoteservice.eventadmin/src:/home/joe/Software/ScottsECF/ecf/compendium/bundles/org.eclipse.ecf.osgi.services.distribution/src:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.remoteservice.rest/src:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.provider/src:/home/joe/Software/ScottsECF/ecf/protocols/bundles/ch.ethz.iks.slp/src/main/java'
+-classpath '/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.osgi.compatibility.state/1.2.1000.v20240213-1057/org.eclipse.osgi.compatibility.state-1.2.1000.v20240213-1057.jar:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.filetransfer/target/classes:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.filetransfer.httpclient45/target/classes:/home/joe/Software/ScottsECF/ecf/osgi/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin.console/target/classes:/home/joe/Software/ScottsECF/ecf/server-side/bundles/org.eclipse.ecf.remoteservice.eventadmin/target/classes:/home/joe/Software/ScottsECF/ecf/protocols/bundles/ch.ethz.iks.slp/r7stubs.jar:/home/joe/Software/ScottsECF/ecf/protocols/bundles/ch.ethz.iks.r_osgi.remote/target/classes:/home/joe/Software/ScottsECF/ecf/osgi/bundles/org.eclipse.osgi.services.remoteserviceadmin/target/classes:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.osgi.services/3.12.100.v20240327-0645/org.eclipse.osgi.services-3.12.100.v20240327-0645.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.osgi.util.promise/1.3.0.202212101352/org.osgi.util.promise-1.3.0.202212101352.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.osgi.service.cm/1.6.1.202109301733/org.osgi.service.cm-1.6.1.202109301733.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.apache.httpcomponents.client5.httpclient5/5.4.1.v20241029-1100/org.apache.httpcomponents.client5.httpclient5-5.4.1.v20241029-1100.jar:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.remoteservice/target/classes:/home/joe/.m2/repository/p2/osgi/bundle/org.apache.httpcomponents.core5.httpcore5/5.3.1.v20241024-1000/org.apache.httpcomponents.core5.httpcore5-5.3.1.v20241024-1000.jar:/home/joe/Software/ScottsECF/ecf/osgi/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin.proxy/.:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.registry/3.12.100.v20240524-2011/org.eclipse.equinox.registry-3.12.100.v20240524-2011.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.apache.felix.gogo.runtime/1.1.6/org.apache.felix.gogo.runtime-1.1.6.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.core.jobs/3.15.300.v20240418-0734/org.eclipse.core.jobs-3.15.300.v20240418-0734.jar:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf/target/classes:/home/joe/.m2/repository/p2/osgi/bundle/org.objectweb.asm/9.7.1/org.objectweb.asm-9.7.1.jar:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.discovery/target/classes:/home/joe/.m2/repository/org/eclipse/platform/org.eclipse.core.net.linux/1.1.0-SNAPSHOT/org.eclipse.core.net.linux-1.1.0-SNAPSHOT.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.security.win32/1.3.0.v20240419-2334/org.eclipse.equinox.security.win32-1.3.0.v20240419-2334.jar:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.remoteservice.asyncproxy.j8/target/classes:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.identity/r7stubs.jar:/home/joe/Software/ScottsECF/ecf/osgi/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin/target/classes:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.concurrent/1.3.100.v20240514-0729/org.eclipse.equinox.concurrent-1.3.100.v20240514-0729.jar:/home/joe/Software/ScottsECF/ecf/osgi/bundles/org.eclipse.osgi.services.remoteserviceadmin/osgi/osgi.annotation.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.apache.httpcomponents.httpcore/4.4.16/org.apache.httpcomponents.httpcore-4.4.16.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.apache.httpcomponents.httpclient/4.5.14/org.apache.httpcomponents.httpclient-4.5.14.jar:/home/joe/Software/ScottsECF/ecf/server-side/bundles/org.eclipse.ecf.remoteservice.eventadmin/target/r7stubs.jar-classes:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.jetty.servlet-api/4.0.6/org.eclipse.jetty.servlet-api-4.0.6.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.common/3.19.100.v20240524-2011/org.eclipse.equinox.common-3.19.100.v20240524-2011.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.core.net.win32/1.1.400.v20240414-0911/org.eclipse.core.net.win32-1.1.400.v20240414-0911.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.equinox.http.service.api/1.2.2.v20231218-2126/org.eclipse.equinox.http.service.api-1.2.2.v20231218-2126.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.core.net/1.5.400.v20240413-1529/org.eclipse.core.net-1.5.400.v20240413-1529.jar:/home/joe/Software/ScottsECF/ecf/server-side/bundles/org.eclipse.ecf.remoteservice.eventadmin/r7stubs.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.osgi.service.event/1.4.1.202109301733/org.osgi.service.event-1.4.1.202109301733.jar:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.osgi/3.20.0.v20240509-1421/org.eclipse.osgi-3.20.0.v20240509-1421.jar:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.sharedobject/target/classes:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.identity/target/r7stubs.jar-classes:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.filetransfer/target/classes:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.provider/target/classes:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.remoteservice.rest/target/classes:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.identity/target/classes:/home/joe/.m2/repository/p2/osgi/bundle/org.eclipse.jdt.annotation/2.3.0.v20240111-2306/org.eclipse.jdt.annotation-2.3.0.v20240111-2306.jar:/home/joe/Software/ScottsECF/ecf/compendium/bundles/org.eclipse.ecf.osgi.services.distribution/target/classes:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.remoteservice.servlet/target/classes:/home/joe/.m2/repository/p2/osgi/bundle/org.osgi.service.component.annotations/1.5.1.202212101352/org.osgi.service.component.annotations-1.5.1.202212101352.jar:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.jslp/target/classes:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.r_osgi/target/classes:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.dnssd/target/classes:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.remoteservice/target/classes:/home/joe/Software/ScottsECF/ecf/protocols/bundles/ch.ethz.iks.slp/target/r7stubs.jar-classes:/home/joe/.m2/repository/p2/osgi/bundle/org.xbill.dns/3.6.2/org.xbill.dns-3.6.2.jar:/home/joe/Software/ScottsECF/ecf/framework/bundles/org.eclipse.ecf.console/target/classes:/home/joe/.m2/repository/org/eclipse/platform/org.eclipse.core.net.win32.x86_64/1.2.100-SNAPSHOT/org.eclipse.core.net.win32.x86_64-1.2.100-SNAPSHOT.jar:/home/joe/Software/ScottsECF/ecf/protocols/bundles/ch.ethz.iks.slp/target/classes:/home/joe/Software/ScottsECF/ecf/providers/bundles/org.eclipse.ecf.provider.filetransfer.httpclient5/target/classes'
+-encoding ISO-8859-1
+-Xdoclint:none
+-splitindex
+-use
+-doctitle "Eclipse Communication Framework (ECF) 3.15.3 API"
+-windowtitle "Eclipse Communication Framework (ECF) 3.15.3 API"
+-link https://docs.oracle.com/en/java/javase/11/docs/api/
+-link https://docs.osgi.org/javadoc/osgi.core/7.0.0/
+-tag 'noimplement:a:Restriction:'
+-tag 'noextend:a:Restriction:'
+-tag 'noreference:a:Restriction:'
+-tag 'noinstantiate:a:Restriction:'
+-tag 'nooverride:a:Restriction:'
+-bottom "Copyright &#169; 2004&#x2013;2020 <a href=\"https://www.eclipse.org/\">Eclipse Foundation</a>. All rights reserved."
+org.eclipse.ecf.provider.comm
+org.eclipse.ecf.provider.comm.tcp
+org.eclipse.ecf.provider.generic
+org.eclipse.ecf.provider.generic.gmm
+org.eclipse.ecf.provider.util
+org.eclipse.ecf.remoteservice.servlet
+org.eclipse.ecf.core.identity
+org.eclipse.ecf.core.util
+org.eclipse.ecf.console
+org.eclipse.ecf.provider.filetransfer.httpclient5
+org.eclipse.ecf.filetransfer
+org.eclipse.ecf.filetransfer.events
+org.eclipse.ecf.filetransfer.events.socket
+org.eclipse.ecf.filetransfer.events.socketfactory
+org.eclipse.ecf.filetransfer.identity
+org.eclipse.ecf.filetransfer.service
+org.eclipse.ecf.core.sharedobject
+org.eclipse.ecf.core.sharedobject.events
+org.eclipse.ecf.core.sharedobject.model
+org.eclipse.ecf.core.sharedobject.provider
+org.eclipse.ecf.core.sharedobject.security
+org.eclipse.ecf.core.sharedobject.util
+org.eclipse.ecf.core.util.reflection
+org.eclipse.ecf.remoteservice.eventadmin
+org.eclipse.ecf.remoteservice.eventadmin.serialization
+org.eclipse.ecf.provider.dnssd
+org.eclipse.ecf.remoteservice.asyncproxy
+org.eclipse.ecf.osgi.services.remoteserviceadmin
+org.eclipse.ecf.provider.jslp.container
+org.eclipse.ecf.provider.jslp.identity
+org.eclipse.ecf.core
+org.eclipse.ecf.core.events
+org.eclipse.ecf.core.jobs
+org.eclipse.ecf.core.provider
+org.eclipse.ecf.core.security
+org.eclipse.ecf.core.status
+org.eclipse.ecf.core.util
+org.eclipse.ecf.core.util.reflection
+org.osgi.service.remoteserviceadmin
+org.osgi.service.remoteserviceadmin.namespace
+org.eclipse.ecf.provider.remoteservice.generic
+org.eclipse.ecf.discovery
+org.eclipse.ecf.discovery.identity
+org.eclipse.ecf.discovery.service
+org.eclipse.ecf.osgi.services.distribution
+org.eclipse.ecf.remoteservice.rest
+org.eclipse.ecf.remoteservice.rest.client
+org.eclipse.ecf.remoteservice.rest.identity
+org.eclipse.ecf.remoteservice.rest.util
+org.eclipse.ecf.remoteservice
+org.eclipse.ecf.remoteservice.client
+org.eclipse.ecf.remoteservice.events
+org.eclipse.ecf.remoteservice.provider
+org.eclipse.ecf.remoteservice.util
+org.eclipse.ecf.remoteservice.util.tracker
+org.eclipse.ecf.provider.filetransfer.httpclient45
+org.eclipse.ecf.provider.filetransfer
+org.eclipse.ecf.provider.filetransfer.browse
+org.eclipse.ecf.provider.filetransfer.events.socket
+org.eclipse.ecf.provider.filetransfer.identity
+org.eclipse.ecf.provider.filetransfer.outgoing
+org.eclipse.ecf.provider.filetransfer.retrieve
+org.eclipse.ecf.provider.filetransfer.util
+org.eclipse.ecf.provider.r_osgi.identity

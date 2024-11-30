@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.provider.irc.ui;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.provider.irc.ui
+Bundle-Version: 1.4.0.v20231021-2050
+Bundle-Activator: org.eclipse.ecf.internal.irc.ui.Activator
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ecf.ui,org.eclipse.
+ ecf,org.eclipse.ui,org.eclipse.ecf.presence,org.eclipse.ecf.presence.ui
+ ,org.eclipse.jface.text,org.eclipse.ecf.provider.irc,org.eclipse.ui.wor
+ kbench.texteditor
+Eclipse-LazyStart: true
+Export-Package: org.eclipse.ecf.internal.irc.ui;x-internal:=true,org.ecl
+ ipse.ecf.internal.irc.ui.wizards;x-internal:=true
+Bundle-Vendor: %plugin.provider
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
+ viders/bundles/org.eclipse.ecf.provider.irc.ui;path="providers/bundles/
+ org.eclipse.ecf.provider.irc.ui";commitId=e355fb411958bd12f0c678e5a7647
+ 6198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

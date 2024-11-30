@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.filetransfer.httpclientjava.feature' version='2.0.200.v20240808-1900'>
+    <properties size='10'>
+      <property name='artifact.size' value='22202'/>
+      <property name='download.size' value='22202'/>
+      <property name='download.checksum.sha-512' value='7659d2432895a14466248ba12894546b17f0f4f15d03900be05a3cde0399e9b0dfb768b8f710c42a1cd936dc5c8b86a5a2170f19ffe3fbff1edfce1908aac3fd'/>
+      <property name='download.checksum.sha-1' value='94f34ad66828bee1e7117019f045c9af97fdb4e7'/>
+      <property name='download.checksum.sha-256' value='bdafff70460fe232b60905317fbfed520d5a01567dfe3ebf28dd6aa98cccbdb9'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.filetransfer.httpclientjava.feature'/>
+      <property name='maven-version' value='2.0.200-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+  <artifact classifier='org.eclipse.update.feature' id='org.eclipse.ecf.filetransfer.httpclientjava.feature.source' version='2.0.200.v20240808-1900'>
+    <properties size='11'>
+      <property name='artifact.size' value='23410'/>
+      <property name='download.size' value='23410'/>
+      <property name='download.checksum.sha-512' value='25f228559db135d506cf4d782d770cd3120664854b3606eb7e0555fb677d811c060c9101af60a96e686316f4174eb13ee37c2d5fe34fb5f6e962a2944ebd1509'/>
+      <property name='download.checksum.sha-1' value='23b39ba05fe09a161d44cab8776c3901a8caa91a'/>
+      <property name='download.checksum.sha-256' value='a177aa75076bdc5dcae61810e935bda4efd269224edf983dd6952f95535bc002'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.ecf.filetransfer.httpclientjava.feature'/>
+      <property name='maven-version' value='2.0.200-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources-feature'/>
+      <property name='maven-type' value='eclipse-feature'/>
+      <property name='download.contentType' value='application/zip'/>
+    </properties>
+  </artifact>
+</artifacts>

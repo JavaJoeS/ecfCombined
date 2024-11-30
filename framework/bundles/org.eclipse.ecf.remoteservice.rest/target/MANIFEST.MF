@@ -1,0 +1,43 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-Vendor: %plugin.provider
+Bundle-SymbolicName: org.eclipse.ecf.remoteservice.rest;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.remoteservice.rest
+Bundle-Version: 2.8.1.v20240405-1603
+Bundle-Activator: org.eclipse.ecf.internal.remoteservice.rest.Activator
+Bundle-ActivationPolicy: lazy
+Eclipse-BuddyPolicy: global
+DynamicImport-Package: *
+Export-Package: org.eclipse.ecf.internal.remoteservice.rest;x-internal:=
+ true,org.eclipse.ecf.remoteservice.rest;version="2.5",org.eclipse.ecf.r
+ emoteservice.rest.client;version="2.6",org.eclipse.ecf.remoteservice.re
+ st.identity;version="2.5",org.eclipse.ecf.remoteservice.rest.util;versi
+ on="2.5"
+Import-Package: org.apache.http;version="4.3",org.apache.http.auth;versi
+ on="4.3",org.apache.http.client;version="4.3",org.apache.http.client.co
+ nfig;version="4.3",org.apache.http.client.entity;version="4.3",org.apac
+ he.http.client.methods;version="4.3",org.apache.http.client.params;vers
+ ion="4.3",org.apache.http.client.utils;version="4.3",org.apache.http.en
+ tity;version="4.3",org.apache.http.impl.auth;version="4.3",org.apache.h
+ ttp.impl.client;version="4.3",org.apache.http.message;version="4.3",org
+ .apache.http.params;version="4.3",org.apache.http.protocol;version="4.3
+ .3",org.apache.http.util,org.eclipse.ecf.remoteservice;version="6.0.0",
+ org.eclipse.ecf.remoteservice.asyncproxy;version="1.0.0",org.eclipse.ec
+ f.remoteservice.client,org.eclipse.ecf.remoteservice.events,org.eclipse
+ .ecf.remoteservice.util,org.eclipse.equinox.concurrent.future;version="
+ 1.0.0",org.osgi.framework,org.osgi.service.log,org.osgi.util.tracker
+Require-Bundle: org.eclipse.equinox.common,org.eclipse.ecf,org.eclipse.e
+ cf.identity
+Service-Component: META-INF/dspresent.xml
+Bundle-Localization: plugin
+Provide-Capability: osgi.remoteserviceadmin.distribution; configs:List<S
+ tring>="ecf.rest.client"; version:Version=1.1 
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf.remoteservice.rest;path="framework/bundl
+ es/org.eclipse.ecf.remoteservice.rest";commitId=e355fb411958bd12f0c678e
+ 5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

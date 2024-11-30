@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<artifacts size='2'>
+  <artifact classifier='osgi.bundle' id='org.eclipse.osgi.services.remoteserviceadmin' version='1.6.301.v20231021-2050'>
+    <properties size='9'>
+      <property name='artifact.size' value='32227'/>
+      <property name='download.size' value='32227'/>
+      <property name='download.checksum.sha-512' value='e131cc14570b6ab8e2e687c9403df3331e1e1d356a67382b083de0a51139222387082e083fbfec77d21bb5fc2877d651ac1901a7d883747b49a650f25023056d'/>
+      <property name='download.checksum.sha-1' value='5cb72aece399c016b17121b6e48aedf17c1ca993'/>
+      <property name='download.checksum.sha-256' value='91a583d9f366f5fc6b745ab5f004870f1f749adfad90eb972404ebd9b9fca9d1'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.osgi.services.remoteserviceadmin'/>
+      <property name='maven-version' value='1.6.301-SNAPSHOT'/>
+      <property name='maven-type' value='eclipse-plugin'/>
+    </properties>
+  </artifact>
+  <artifact classifier='osgi.bundle' id='org.eclipse.osgi.services.remoteserviceadmin.source' version='1.6.301.v20231021-2050'>
+    <properties size='10'>
+      <property name='artifact.size' value='77174'/>
+      <property name='download.size' value='77174'/>
+      <property name='download.checksum.sha-512' value='bdeb3a404d018fd746d5d08170769a436af91f1de666d7f60094b15d7ed5d352b6379efe6aaabc398f50f7ecf55f8e881da8c64a3126e5231e560dcdde8a4210'/>
+      <property name='download.checksum.sha-1' value='e2938961cf331bbf6ec78a6f3dd7176402e6ea85'/>
+      <property name='download.checksum.sha-256' value='29e2adc7055cff44e2868156c3d2bdeb5cd3fc4b1e59f6f9d4cb39b196e682bf'/>
+      <property name='maven-groupId' value='org.eclipse.ecf'/>
+      <property name='maven-artifactId' value='org.eclipse.osgi.services.remoteserviceadmin'/>
+      <property name='maven-version' value='1.6.301-SNAPSHOT'/>
+      <property name='maven-classifier' value='sources'/>
+      <property name='maven-type' value='java-source'/>
+    </properties>
+  </artifact>
+</artifacts>

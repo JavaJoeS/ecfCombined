@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf.provider.irc; singleton:=true
+Automatic-Module-Name: org.eclipse.ecf.provider.irc
+Bundle-Version: 1.3.401.v20231021-2050
+Bundle-Activator: org.eclipse.ecf.internal.provider.irc.Activator
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Require-Bundle: org.eclipse.equinox.common,org.eclipse.ecf,org.eclipse.e
+ cf.presence,org.eclipse.ecf.datashare;resolution:=optional,org.eclipse.
+ ecf.provider.datashare.nio;resolution:=optional
+Eclipse-LazyStart: true
+Bundle-ClassPath: ., lib/irclib.jar
+Export-Package: org.eclipse.ecf.internal.provider.irc;x-internal:=true,o
+ rg.eclipse.ecf.internal.provider.irc.container;x-internal:=true,org.ecl
+ ipse.ecf.internal.provider.irc.identity;x-friends:=org.eclipse.ecf.prov
+ ider.irc.ui,org.eclipse.ecf.internal.provider.irc.datashare;x-internal:
+ =true
+Import-Package: org.eclipse.equinox.concurrent.future;version="1.0.0",or
+ g.eclipse.osgi.util;version="1.0.0",org.osgi.framework;version="1.3.0",
+ org.osgi.service.log;version="1.3.0",org.osgi.util.tracker;version="1.3
+ .2"
+Bundle-ActivationPolicy: lazy
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
+ viders/bundles/org.eclipse.ecf.provider.irc;path="providers/bundles/org
+ .eclipse.ecf.provider.irc";commitId=e355fb411958bd12f0c678e5a76476198c8
+ 048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.tests.feature"
+      label="Used to build and execute tests (should never appear in a product)"
+      version="3.1.0.v20240402-2354"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/ecf">
+      Eclipse Communications Framework Tests
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ecf.tests"
+         download-size="16"
+         install-size="30"
+         version="2.2.102.v20231021-2050"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.tests.remoteservice"
+         download-size="26"
+         install-size="53"
+         version="2.1.102.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.tests.osgi.services.distribution"
+         download-size="23"
+         install-size="44"
+         version="1.1.101.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.tests.remoteservice.generic"
+         download-size="25"
+         install-size="46"
+         version="2.1.102.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.tests.osgi.services.distribution.generic"
+         download-size="5"
+         install-size="6"
+         version="1.0.101.v20230528-2254"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ecf.tests.osgi.services.distribution.r-osgi"
+         download-size="7"
+         install-size="11"
+         version="1.0.101.v20240402-2321"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,37 @@
+Manifest-Version: 1.0
+Bundle-Name: %plugin.name
+Bundle-SymbolicName: org.eclipse.ecf;singleton:=true
+Automatic-Module-Name: org.eclipse.ecf
+Bundle-Version: 3.11.0.v20240812-1535
+Bundle-Activator: org.eclipse.ecf.internal.core.ECFPlugin
+Bundle-Vendor: %plugin.provider
+Bundle-Localization: plugin
+Eclipse-LazyStart: true
+Eclipse-ExtensibleAPI: true
+Bundle-ManifestVersion: 2
+Export-Package: org.eclipse.ecf.core;version="3.0.0",org.eclipse.ecf.cor
+ e.events;version="3.1.0",org.eclipse.ecf.core.jobs;version="1.1.0",org.
+ eclipse.ecf.core.provider;version="3.3.0",org.eclipse.ecf.core.security
+ ;version="3.1.0",org.eclipse.ecf.core.start;version="3.1.0",org.eclipse
+ .ecf.core.status;version="1.1.0",org.eclipse.ecf.core.user;version="3.1
+ .0",org.eclipse.ecf.core.util;version="3.6.0",org.eclipse.ecf.core.util
+ .reflection;version="2.3.0",org.eclipse.ecf.internal.core;x-internal:=t
+ rue
+Import-Package: org.eclipse.core.runtime.jobs,org.eclipse.equinox.concur
+ rent.future;version="[1.0.0,2.0.0)";x-installation:=greedy,org.osgi.fra
+ mework;version="[1.3.0,2.0.0)",org.osgi.service.log;version="[1.3.0,2.0
+ .0)",org.osgi.util.tracker;version="[1.3.2,2.0.0)"
+Require-Bundle: org.eclipse.equinox.common;bundle-version="[3.0.0,4.0.0)
+ ",org.eclipse.equinox.registry;bundle-version="[3.0.0,4.0.0)";resolutio
+ n:=optional,org.eclipse.ecf.identity;visibility:=reexport
+Bundle-ActivationPolicy: lazy
+Provide-Capability: ecf.containertype;names:List<String>="ecf.base"; ver
+ sion:Version=3.3
+DynamicImport-Package: *
+Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/fra
+ mework/bundles/org.eclipse.ecf;path="framework/bundles/org.eclipse.ecf"
+ ;commitId=e355fb411958bd12f0c678e5a76476198c8048e8
+Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
+ clipse.org/legal/epl-2.0"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
+

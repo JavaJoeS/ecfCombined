@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ecf.discovery.feature"
+      label="ECF Discovery"
+      version="1.0.201.v20231021-2050"
+      provider-name="%providerName">
+
+   <description url="http://www.eclipse.org/ecf">
+      This feature provides the ECF Discovery API.  The ECF Discovery API gives a transport-independent network discovery API.
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import plugin="org.eclipse.ecf"/>
+      <import plugin="org.eclipse.ecf.identity"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ecf.discovery"
+         download-size="44"
+         install-size="83"
+         version="5.2.0.v20231021-2050"
+         unpack="false"/>
+
+</feature>

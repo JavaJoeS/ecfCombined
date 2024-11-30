@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="org.eclipse.ecf.console.feature.source" version="1.3.1.v20240808-1900" label="ECF Console Feature Developer Resources" provider-name="Eclipse.org - ECF">
+  <description url="http://www.eclipse.org/ecf">
+      This feature provides the ECF OSGI Console extensions...allowing ECF commands to be given via
+      the OSGi console.
+   </description>
+  <copyright>
+      %copyright
+   </copyright>
+  <license url="%licenseURL">
+      %license
+   </license>
+  <plugin id="org.eclipse.ecf.console.source" version="1.4.100.v20240808-1900" download-size="0" install-size="0" unpack="false"/>
+</feature>
