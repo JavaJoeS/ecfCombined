@@ -6,7 +6,7 @@ Bundle-SymbolicName: org.eclipse.ecf.provider.filetransfer.httpclient45;
  singleton:=true
 Automatic-Module-Name: org.eclipse.ecf.provider.filetransfer.httpclient4
  5
-Bundle-Version: 1.0.700.v20241130-0859
+Bundle-Version: 1.0.700.v20241130-0907
 Bundle-Localization: plugin
 Bundle-Activator: org.eclipse.ecf.internal.provider.filetransfer.httpcli
  ent45.Activator
@@ -44,12 +44,12 @@ Export-Package: org.eclipse.ecf.internal.provider.filetransfer.httpclien
  provider.filetransfer.retrieve,  org.eclipse.ecf.provider.filetransfer.
  util"
 Service-Component: OSGI-INF/services/*.xml
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ActivationPolicy: lazy
 Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
  viders/bundles/org.eclipse.ecf.provider.filetransfer.httpclient45;path=
  "providers/bundles/org.eclipse.ecf.provider.filetransfer.httpclient45";
- commitId=973852cb24d7a5fea5168da085beb5341dba978a
+ commitId=d063fb54afd221d447982d3fadc5354b70b6ecd3
 Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
  clipse.org/legal/epl-2.0"
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
 

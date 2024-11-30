@@ -3,8 +3,9 @@ Bundle-ManifestVersion: 2
 Bundle-Name: %bundle.name
 Bundle-SymbolicName: org.eclipse.ecf.osgi.services.remoteserviceadmin.co
  nsole
-Bundle-Version: 1.3.200.v20241130-0859
+Bundle-Version: 1.3.200.v20241130-0900
 Bundle-Vendor: %bundle.provider
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-Localization: bundle
 Bundle-ActivationPolicy: lazy
 Import-Package: org.apache.felix.service.command;version="[0.10.0,2.0.0)
@@ -23,10 +24,7 @@ Service-Component: OSGI-INF/org.eclipse.ecf.osgi.services.remoteservicea
 Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/osg
  i/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin.console;path
  ="osgi/bundles/org.eclipse.ecf.osgi.services.remoteserviceadmin.console
- ";commitId=973852cb24d7a5fea5168da085beb5341dba978a
+ ";commitId=d063fb54afd221d447982d3fadc5354b70b6ecd3
 Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
  clipse.org/legal/epl-2.0"
-Require-Capability: osgi.extender;filter:="(&(osgi.extender=osgi.compone
- nt)(version>=1.5.0)(!(version>=2.0.0)))",osgi.ee;filter:="(&(osgi.ee=Ja
- vaSE)(version=17))"
 

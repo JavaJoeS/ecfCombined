@@ -6,9 +6,10 @@ Bundle-SymbolicName: org.eclipse.ecf.provider.filetransfer.httpclient45.
  win32;singleton:=true
 Automatic-Module-Name: org.eclipse.ecf.provider.filetransfer.httpclient4
  5.win32
-Bundle-Version: 1.0.600.v20241130-0859
+Bundle-Version: 1.0.600.v20241130-0900
 Bundle-Localization: plugin
 Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-17
 Bundle-ClassPath: .
 Require-Bundle: org.eclipse.osgi.services;bundle-version="[3.4.0,4.0.0)"
  ,org.eclipse.ecf;bundle-version="[3.4.0,4.0.0)",org.eclipse.ecf.filetra
@@ -27,8 +28,7 @@ Service-Component: OSGI-INF/services/*.xml
 Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/pro
  viders/bundles/org.eclipse.ecf.provider.filetransfer.httpclient45.win32
  ;path="providers/bundles/org.eclipse.ecf.provider.filetransfer.httpclie
- nt45.win32";commitId=973852cb24d7a5fea5168da085beb5341dba978a
+ nt45.win32";commitId=d063fb54afd221d447982d3fadc5354b70b6ecd3
 Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
  clipse.org/legal/epl-2.0"
-Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
 

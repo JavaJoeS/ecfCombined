@@ -4,7 +4,7 @@ Bundle-Name: %plugin.name
 Bundle-Vendor: %plugin.provider
 Bundle-SymbolicName: org.eclipse.ecf.tests.filetransfer.httpclientjava
 Automatic-Module-Name: org.eclipse.ecf.tests.filetransfer.httpclientjava
-Bundle-Version: 2.0.0.v20241130-0859
+Bundle-Version: 2.0.0.v20241130-0900
 Fragment-Host: org.eclipse.ecf.tests.filetransfer;bundle-version="2.0.40
  0"
 Bundle-Localization: fragment
@@ -13,8 +13,8 @@ Require-Bundle: org.eclipse.ecf.provider.filetransfer.httpclientjava;bun
 Import-Package: javax.net.ssl
 Eclipse-SourceReferences: scm:git:https://github.com/eclipse/ecf.git/tes
  ts/bundles/org.eclipse.ecf.tests.filetransfer.httpclientjava;path="test
- s/bundles/org.eclipse.ecf.tests.filetransfer.httpclientjava";commitId=9
- 73852cb24d7a5fea5168da085beb5341dba978a
+ s/bundles/org.eclipse.ecf.tests.filetransfer.httpclientjava";commitId=d
+ 063fb54afd221d447982d3fadc5354b70b6ecd3
 Bundle-License: Eclipse Public License - Version 2.0;link="https://www.e
  clipse.org/legal/epl-2.0"
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=17))"
