@@ -22,7 +22,11 @@ public class SSLContextHelper {
 
 	public static SSLContext getSSLContext(String protocols) {
 		SSLContext resultContext = null;
+
 		try {
+			ECFKeyStoreManager km = ECFKeyStoreManager.getInstance();
+			resultContext = km.getSSLContext();
+
 			resultContext = SSLContext.getDefault();
 		} catch (NoSuchAlgorithmException pkiNotAvailableERR) {
 			if (protocols != null) {
