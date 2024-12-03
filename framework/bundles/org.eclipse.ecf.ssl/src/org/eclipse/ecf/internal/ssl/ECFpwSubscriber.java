@@ -2,9 +2,11 @@ package org.eclipse.ecf.internal.ssl;
 
 import java.lang.reflect.*;
 import java.security.NoSuchAlgorithmException;
+import java.security.Provider;
 import java.util.concurrent.Flow.Subscriber;
 import java.util.concurrent.Flow.Subscription;
 import javax.net.ssl.SSLContext;
+import org.eclipse.ecf.internal.core.ECFPlugin;
 
 public class ECFpwSubscriber implements Subscriber<String> {
 	private Subscription subscription;
@@ -67,6 +69,8 @@ public class ECFpwSubscriber implements Subscriber<String> {
 					} else {
 						System.out.println("ECFpwSubscriber  SSLContext is NOW set");
 						ECFKeyStoreManager.getInstance().setSSLContext(sslContext);
+						ECFPlugin.getDefault().getContext().registerService(Provider.class,
+								SSLContext.getDefault().getProvider(), null);
 					}
 				} else {
 					System.out.println("ECFpwSubscriber  Result of getSSLContext is FALSE");
